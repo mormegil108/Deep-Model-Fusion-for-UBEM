@@ -1,0 +1,3938 @@
+{
+    "GasMaterials": [
+        {
+            "$id": "140412450697664",
+            "Category": "Gases",
+            "Type": "AIR",
+            "Conductivity": 0.024,
+            "Cost": 0.0,
+            "Density": 1.2930656163292633,
+            "EmbodiedCarbon": 0.0,
+            "EmbodiedEnergy": 0.0,
+            "SubstitutionRatePattern": [
+                1.0
+            ],
+            "SubstitutionTimestep": 100.0,
+            "TransportCarbon": 0.0,
+            "TransportDistance": 0.0,
+            "TransportEnergy": 0.0,
+            "Comments": null,
+            "DataSource": null,
+            "Name": "AIR"
+        }
+    ],
+    "GlazingMaterials": [
+        {
+            "$id": "140413053263168",
+            "DirtFactor": 1.0,
+            "IREmissivityBack": 0.84,
+            "IREmissivityFront": 0.84,
+            "IRTransmittance": 0.0,
+            "SolarReflectanceBack": 0.57,
+            "SolarReflectanceFront": 0.57,
+            "SolarTransmittance": 0.21,
+            "VisibleReflectanceBack": 0.26,
+            "VisibleReflectanceFront": 0.17,
+            "VisibleTransmittance": 0.21,
+            "Conductivity": 0.12,
+            "Cost": 0.0,
+            "Density": 2500.0,
+            "EmbodiedCarbon": 0.0,
+            "EmbodiedEnergy": 0.0,
+            "SubstitutionRatePattern": [
+                1.0
+            ],
+            "SubstitutionTimestep": 0.0,
+            "TransportCarbon": 0.0,
+            "TransportDistance": 0.0,
+            "TransportEnergy": 0.0,
+            "Category": "Uncategorized",
+            "Comments": "Properties calculated from Simple Glazing System with SHGC=0.300, UFactor=2.612 and Tvis=0.212",
+            "DataSource": null,
+            "Name": "NonRes Fixed Assembly Window"
+        },
+        {
+            "$id": "140412462536768",
+            "DirtFactor": 1.0,
+            "IREmissivityBack": 0.84,
+            "IREmissivityFront": 0.84,
+            "IRTransmittance": 0.0,
+            "SolarReflectanceBack": 0.062,
+            "SolarReflectanceFront": 0.062,
+            "SolarTransmittance": 0.6,
+            "VisibleReflectanceBack": 0.15,
+            "VisibleReflectanceFront": 0.13,
+            "VisibleTransmittance": 0.6,
+            "Conductivity": 0.4,
+            "Cost": 0.0,
+            "Density": 2500.0,
+            "EmbodiedCarbon": 0.0,
+            "EmbodiedEnergy": 0.0,
+            "SubstitutionRatePattern": [
+                1.0
+            ],
+            "SubstitutionTimestep": 0.0,
+            "TransportCarbon": 0.0,
+            "TransportDistance": 0.0,
+            "TransportEnergy": 0.0,
+            "Category": "Uncategorized",
+            "Comments": "Properties calculated from Simple Glazing System with SHGC=0.700, UFactor=6.927 and Tvis=0.603",
+            "DataSource": null,
+            "Name": "Semi-Cond Fixed Assembly Window"
+        }
+    ],
+    "OpaqueMaterials": [
+        {
+            "$id": "140412469818368",
+            "MoistureDiffusionResistance": 50.0,
+            "Roughness": "Smooth",
+            "SolarAbsorptance": 0.92,
+            "SpecificHeat": 830.0,
+            "ThermalEmittance": 0.9,
+            "VisibleAbsorptance": 0.92,
+            "Conductivity": 0.16,
+            "Cost": 0.0,
+            "Density": 784.9,
+            "EmbodiedCarbon": 0.45,
+            "EmbodiedEnergy": 0.0,
+            "SubstitutionRatePattern": [
+                1.0
+            ],
+            "SubstitutionTimestep": 20.0,
+            "TransportCarbon": 0.0,
+            "TransportDistance": 0.0,
+            "TransportEnergy": 0.0,
+            "Category": "Uncategorized",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "1/2IN Gypsum"
+        },
+        {
+            "$id": "140412458193200",
+            "MoistureDiffusionResistance": 50.0,
+            "Roughness": "Smooth",
+            "SolarAbsorptance": 0.92,
+            "SpecificHeat": 837.0,
+            "ThermalEmittance": 0.9,
+            "VisibleAbsorptance": 0.92,
+            "Conductivity": 0.6918,
+            "Cost": 0.0,
+            "Density": 1858.0,
+            "EmbodiedCarbon": 0.45,
+            "EmbodiedEnergy": 0.0,
+            "SubstitutionRatePattern": [
+                1.0
+            ],
+            "SubstitutionTimestep": 20.0,
+            "TransportCarbon": 0.0,
+            "TransportDistance": 0.0,
+            "TransportEnergy": 0.0,
+            "Category": "Uncategorized",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "1IN Stucco"
+        },
+        {
+            "$id": "140412469818128",
+            "MoistureDiffusionResistance": 50.0,
+            "Roughness": "MediumRough",
+            "SolarAbsorptance": 0.7,
+            "SpecificHeat": 836.8,
+            "ThermalEmittance": 0.9,
+            "VisibleAbsorptance": 0.7,
+            "Conductivity": 0.049,
+            "Cost": 0.0,
+            "Density": 265.0,
+            "EmbodiedCarbon": 0.45,
+            "EmbodiedEnergy": 0.0,
+            "SubstitutionRatePattern": [
+                1.0
+            ],
+            "SubstitutionTimestep": 20.0,
+            "TransportCarbon": 0.0,
+            "TransportDistance": 0.0,
+            "TransportEnergy": 0.0,
+            "Category": "Uncategorized",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "AtticFloor NonRes Insulation"
+        },
+        {
+            "$id": "140412469818848",
+            "MoistureDiffusionResistance": 50.0,
+            "Roughness": "VeryRough",
+            "SolarAbsorptance": 0.7,
+            "SpecificHeat": 100.5,
+            "ThermalEmittance": 0.9,
+            "VisibleAbsorptance": 0.8,
+            "Conductivity": 0.02436,
+            "Cost": 0.0,
+            "Density": 1.275,
+            "EmbodiedCarbon": 0.45,
+            "EmbodiedEnergy": 0.0,
+            "SubstitutionRatePattern": [
+                1.0
+            ],
+            "SubstitutionTimestep": 20.0,
+            "TransportCarbon": 0.0,
+            "TransportDistance": 0.0,
+            "TransportEnergy": 0.0,
+            "Category": "Uncategorized",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "CP02 CARPET PAD"
+        },
+        {
+            "$id": "140412456983664",
+            "MoistureDiffusionResistance": 8.3,
+            "Roughness": "Smooth",
+            "SolarAbsorptance": 0.7,
+            "SpecificHeat": 1090.0,
+            "ThermalEmittance": 0.9,
+            "VisibleAbsorptance": 0.5,
+            "Conductivity": 0.16,
+            "Cost": 0.0,
+            "Density": 800.0,
+            "EmbodiedCarbon": 0.45,
+            "EmbodiedEnergy": 0.0,
+            "SubstitutionRatePattern": [
+                1.0
+            ],
+            "SubstitutionTimestep": 20.0,
+            "TransportCarbon": 0.0,
+            "TransportDistance": 0.0,
+            "TransportEnergy": 0.0,
+            "Category": "Uncategorized",
+            "Comments": null,
+            "DataSource": "ASHRAE 90.1-2007",
+            "Name": "GP01 GYPSUM"
+        },
+        {
+            "$id": "140412469818608",
+            "MoistureDiffusionResistance": 50.0,
+            "Roughness": "Rough",
+            "SolarAbsorptance": 0.7,
+            "SpecificHeat": 836.8,
+            "ThermalEmittance": 0.9,
+            "VisibleAbsorptance": 0.7,
+            "Conductivity": 1.311,
+            "Cost": 0.0,
+            "Density": 2240.0,
+            "EmbodiedCarbon": 0.45,
+            "EmbodiedEnergy": 0.0,
+            "SubstitutionRatePattern": [
+                1.0
+            ],
+            "SubstitutionTimestep": 20.0,
+            "TransportCarbon": 0.0,
+            "TransportDistance": 0.0,
+            "TransportEnergy": 0.0,
+            "Category": "Uncategorized",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "HW CONCRETE"
+        },
+        {
+            "$id": "140412429248928",
+            "MoistureDiffusionResistance": 50.0,
+            "Roughness": "MediumSmooth",
+            "SolarAbsorptance": 0.7,
+            "SpecificHeat": 418.4,
+            "ThermalEmittance": 0.9,
+            "VisibleAbsorptance": 0.3,
+            "Conductivity": 45.01,
+            "Cost": 0.0,
+            "Density": 7680.0,
+            "EmbodiedCarbon": 0.45,
+            "EmbodiedEnergy": 0.0,
+            "SubstitutionRatePattern": [
+                1.0
+            ],
+            "SubstitutionTimestep": 20.0,
+            "TransportCarbon": 0.0,
+            "TransportDistance": 0.0,
+            "TransportEnergy": 0.0,
+            "Category": "Uncategorized",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Metal Decking"
+        },
+        {
+            "$id": "140412455212512",
+            "MoistureDiffusionResistance": 50.0,
+            "Roughness": "Smooth",
+            "SolarAbsorptance": 0.2,
+            "SpecificHeat": 410.0,
+            "ThermalEmittance": 0.9,
+            "VisibleAbsorptance": 0.2,
+            "Conductivity": 44.96,
+            "Cost": 0.0,
+            "Density": 7689.0,
+            "EmbodiedCarbon": 0.45,
+            "EmbodiedEnergy": 0.0,
+            "SubstitutionRatePattern": [
+                1.0
+            ],
+            "SubstitutionTimestep": 20.0,
+            "TransportCarbon": 0.0,
+            "TransportDistance": 0.0,
+            "TransportEnergy": 0.0,
+            "Category": "Uncategorized",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Metal Siding"
+        },
+        {
+            "$id": "140412469819568",
+            "MoistureDiffusionResistance": 50.0,
+            "Roughness": "VeryRough",
+            "SolarAbsorptance": 0.7,
+            "SpecificHeat": 1460.0,
+            "ThermalEmittance": 0.9,
+            "VisibleAbsorptance": 0.7,
+            "Conductivity": 0.16,
+            "Cost": 0.0,
+            "Density": 1121.0,
+            "EmbodiedCarbon": 0.45,
+            "EmbodiedEnergy": 0.0,
+            "SubstitutionRatePattern": [
+                1.0
+            ],
+            "SubstitutionTimestep": 20.0,
+            "TransportCarbon": 0.0,
+            "TransportDistance": 0.0,
+            "TransportEnergy": 0.0,
+            "Category": "Uncategorized",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Roof Membrane"
+        },
+        {
+            "$id": "140412429248688",
+            "MoistureDiffusionResistance": 50.0,
+            "Roughness": "MediumSmooth",
+            "SolarAbsorptance": 0.7,
+            "SpecificHeat": 1339.0,
+            "ThermalEmittance": 0.9,
+            "VisibleAbsorptance": 0.2,
+            "Conductivity": 0.057,
+            "Cost": 0.0,
+            "Density": 288.0,
+            "EmbodiedCarbon": 0.45,
+            "EmbodiedEnergy": 0.0,
+            "SubstitutionRatePattern": [
+                1.0
+            ],
+            "SubstitutionTimestep": 20.0,
+            "TransportCarbon": 0.0,
+            "TransportDistance": 0.0,
+            "TransportEnergy": 0.0,
+            "Category": "Uncategorized",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Std AC02"
+        },
+        {
+            "$id": "140412429248448",
+            "MoistureDiffusionResistance": 50.0,
+            "Roughness": "MediumSmooth",
+            "SolarAbsorptance": 0.7,
+            "SpecificHeat": 1210.0,
+            "ThermalEmittance": 0.9,
+            "VisibleAbsorptance": 0.7,
+            "Conductivity": 0.12,
+            "Cost": 0.0,
+            "Density": 540.0,
+            "EmbodiedCarbon": 0.45,
+            "EmbodiedEnergy": 0.0,
+            "SubstitutionRatePattern": [
+                1.0
+            ],
+            "SubstitutionTimestep": 20.0,
+            "TransportCarbon": 0.0,
+            "TransportDistance": 0.0,
+            "TransportEnergy": 0.0,
+            "Category": "Uncategorized",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Std Wood 6inch"
+        },
+        {
+            "$id": "140413053569200",
+            "MoistureDiffusionResistance": 50.0,
+            "Roughness": "Rough",
+            "SolarAbsorptance": 0.4,
+            "SpecificHeat": 500.0,
+            "ThermalEmittance": 0.9,
+            "VisibleAbsorptance": 0.4,
+            "Conductivity": 45.3,
+            "Cost": 0.0,
+            "Density": 7830.0,
+            "EmbodiedCarbon": 1.37,
+            "EmbodiedEnergy": 20.1,
+            "SubstitutionRatePattern": [
+                1
+            ],
+            "SubstitutionTimestep": 100.0,
+            "TransportCarbon": 0.067,
+            "TransportDistance": 500.0,
+            "TransportEnergy": 0.94,
+            "Category": "Uncategorized",
+            "Comments": null,
+            "DataSource": "BostonTemplateLibrary.json",
+            "Name": "Steel General"
+        },
+        {
+            "$id": "140412469817888",
+            "MoistureDiffusionResistance": 50.0,
+            "Roughness": "MediumSmooth",
+            "SolarAbsorptance": 0.78,
+            "SpecificHeat": 1210.0,
+            "ThermalEmittance": 0.9,
+            "VisibleAbsorptance": 0.78,
+            "Conductivity": 0.11,
+            "Cost": 0.0,
+            "Density": 544.6,
+            "EmbodiedCarbon": 0.45,
+            "EmbodiedEnergy": 0.0,
+            "SubstitutionRatePattern": [
+                1.0
+            ],
+            "SubstitutionTimestep": 20.0,
+            "TransportCarbon": 0.0,
+            "TransportDistance": 0.0,
+            "TransportEnergy": 0.0,
+            "Category": "Uncategorized",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Wood Siding"
+        }
+    ],
+    "OpaqueConstructions": [
+        {
+            "$id": "140412776933792",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412456983664"
+                    },
+                    "Thickness": 0.013
+                },
+                {
+                    "Material": {
+                        "$ref": "140412456983664"
+                    },
+                    "Thickness": 0.013
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Partition",
+            "Comments": null,
+            "DataSource": "ASHRAE 90.1-2007",
+            "Name": "90.1-2007 Nonres 6A Int Wall_9"
+        },
+        {
+            "$id": "140412777580800",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412469818368"
+                    },
+                    "Thickness": 0.013
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818128"
+                    },
+                    "Thickness": 0.303
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818368"
+                    },
+                    "Thickness": 0.013
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Slab",
+            "Comments": null,
+            "DataSource": "None",
+            "Name": "Attic Non-res Floor_4"
+        },
+        {
+            "$id": "140412777579520",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412469819568"
+                    },
+                    "Thickness": 0.533
+                },
+                {
+                    "Material": {
+                        "$ref": "140412429248928"
+                    },
+                    "Thickness": 0.002
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Roof",
+            "Comments": null,
+            "DataSource": "None",
+            "Name": "Attic Non-res Roof_4"
+        },
+        {
+            "$id": "140412783300416",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412429248448"
+                    },
+                    "Thickness": 0.15
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Internal Mass",
+            "Comments": null,
+            "DataSource": "None",
+            "Name": "Core_bottom Internal Mass_1"
+        },
+        {
+            "$id": "140412783299776",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412429248688"
+                    },
+                    "Thickness": 0.013
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Slab",
+            "Comments": null,
+            "DataSource": "None",
+            "Name": "DropCeiling_2"
+        },
+        {
+            "$id": "140412783299296",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412469819568"
+                    },
+                    "Thickness": 0.01
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818128"
+                    },
+                    "Thickness": 0.16
+                },
+                {
+                    "Material": {
+                        "$ref": "140412429248928"
+                    },
+                    "Thickness": 0.002
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Roof",
+            "Comments": null,
+            "DataSource": "None",
+            "Name": "IEAD Non-res Roof_7"
+        },
+        {
+            "$id": "140412777753472",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412469818848"
+                    },
+                    "Thickness": 0.005
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818608"
+                    },
+                    "Thickness": 0.102
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Slab",
+            "Comments": null,
+            "DataSource": "None",
+            "Name": "INT-FLOOR-UNDERSIDE_7"
+        },
+        {
+            "$id": "140412777627712",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412458193200"
+                    },
+                    "Thickness": 0.025
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818128"
+                    },
+                    "Thickness": 0.158
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818368"
+                    },
+                    "Thickness": 0.013
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Facade",
+            "Comments": null,
+            "DataSource": "None",
+            "Name": "Mass Non-res Ext Wall_8"
+        },
+        {
+            "$id": "140412777579680",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412458193200"
+                    },
+                    "Thickness": 0.025
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818128"
+                    },
+                    "Thickness": 0.158
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818368"
+                    },
+                    "Thickness": 0.013
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Facade",
+            "Comments": null,
+            "DataSource": "None",
+            "Name": "Mass Non-res Ext Wall_9"
+        },
+        {
+            "$id": "140412777043424",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412455212512"
+                    },
+                    "Thickness": 0.002
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818128"
+                    },
+                    "Thickness": 0.056
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818368"
+                    },
+                    "Thickness": 0.013
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Facade",
+            "Comments": null,
+            "DataSource": "None",
+            "Name": "Metal Bldg Semi-Cond Ext Wall"
+        },
+        {
+            "$id": "140412777044064",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412429248928"
+                    },
+                    "Thickness": 0.002
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818128"
+                    },
+                    "Thickness": 0.113
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Roof",
+            "Comments": null,
+            "DataSource": "None",
+            "Name": "Metal Bldg Semi-Cond Roof"
+        },
+        {
+            "$id": "140412783298016",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412469817888"
+                    },
+                    "Thickness": 0.01
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818128"
+                    },
+                    "Thickness": 0.155
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818368"
+                    },
+                    "Thickness": 0.013
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Facade",
+            "Comments": null,
+            "DataSource": "None",
+            "Name": "Steel Frame Non-res Ext Wall_3 - Ofis"
+        },
+        {
+            "$id": "140412783298018",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412469817888"
+                    },
+                    "Thickness": 0.01
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818128"
+                    },
+                    "Thickness": 0.155
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818368"
+                    },
+                    "Thickness": 0.013
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Facade",
+            "Comments": null,
+            "DataSource": "None",
+            "Name": "Steel Frame Non-res Ext Wall_3 - Saglik Merkezi"
+        },
+        {
+            "$id": "140412783298017",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412469817888"
+                    },
+                    "Thickness": 0.01
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818128"
+                    },
+                    "Thickness": 0.155
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818368"
+                    },
+                    "Thickness": 0.013
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Facade",
+            "Comments": null,
+            "DataSource": "None",
+            "Name": "Steel Frame Non-res Ext Wall_3 - Spor Merkezi"
+        },
+        {
+            "$id": "140412777751392",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412469817888"
+                    },
+                    "Thickness": 0.01
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818128"
+                    },
+                    "Thickness": 0.155
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818368"
+                    },
+                    "Thickness": 0.013
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Facade",
+            "Comments": null,
+            "DataSource": "None",
+            "Name": "Steel Frame Res Ext Wall"
+        },
+        {
+            "$id": "140412777867200",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412469818608"
+                    },
+                    "Thickness": 0.203
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818848"
+                    },
+                    "Thickness": 0.005
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Ground",
+            "Comments": null,
+            "DataSource": "None",
+            "Name": "ext-slab_15"
+        },
+        {
+            "$id": "140412776932832",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412469818608"
+                    },
+                    "Thickness": 0.102
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Ground",
+            "Comments": null,
+            "DataSource": "None",
+            "Name": "ext-slab_40"
+        },
+        {
+            "$id": "140412777043584",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412469818608"
+                    },
+                    "Thickness": 0.203
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Ground",
+            "Comments": null,
+            "DataSource": "None",
+            "Name": "ext-slab_46"
+        },
+        {
+            "$id": "140412783297216",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412469818608"
+                    },
+                    "Thickness": 0.102
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818848"
+                    },
+                    "Thickness": 0.039
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Ground",
+            "Comments": null,
+            "DataSource": "None",
+            "Name": "ext-slab_9"
+        },
+        {
+            "$id": "140412783299136",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412469818368"
+                    },
+                    "Thickness": 0.013
+                },
+                {
+                    "Material": {
+                        "$ref": "140412469818368"
+                    },
+                    "Thickness": 0.013
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Partition",
+            "Comments": null,
+            "DataSource": "None",
+            "Name": "int-walls_15"
+        }
+    ],
+    "WindowConstructions": [
+        {
+            "$id": "140412777750752",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140413053263168"
+                    },
+                    "Thickness": 0.1
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Single",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Window Non-res Fixed_12 - Ofis"
+        },
+        {
+            "$id": "140412777750753",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140413053263168"
+                    },
+                    "Thickness": 0.1
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Single",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Window Non-res Fixed_12 - Saglik Merkezi"
+        },
+        {
+            "$id": "140412777866241",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140413053263168"
+                    },
+                    "Thickness": 0.1
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Single",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Window Non-res Fixed_12 - Sosyal Bina & Otel"
+        },
+        {
+            "$id": "140412777750754",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140413053263168"
+                    },
+                    "Thickness": 0.1
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Single",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Window Non-res Fixed_12 - Spor Merkezi"
+        },
+        {
+            "$id": "140412777866240",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140413053263168"
+                    },
+                    "Thickness": 0.1
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Single",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Window Res Operable - Huzurevi"
+        },
+        {
+            "$id": "140412776637920",
+            "Layers": [
+                {
+                    "Material": {
+                        "$ref": "140412462536768"
+                    },
+                    "Thickness": 0.333
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Single",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Window Semi-Cond Fixed - Depo"
+        }
+    ],
+    "StructureDefinitions": [
+        {
+            "$id": "140412469826320",
+            "MassRatios": [
+                {
+                    "HighLoadRatio": 305.0,
+                    "Material": {
+                        "$ref": "140413053569200"
+                    },
+                    "NormalRatio": 305.0
+                }
+            ],
+            "AssemblyCarbon": 0.0,
+            "AssemblyCost": 0.0,
+            "AssemblyEnergy": 0.0,
+            "DisassemblyCarbon": 0.0,
+            "DisassemblyEnergy": 0.0,
+            "Category": "Uncategorized",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "RefBldgMediumOfficeNew2004_v1.4_7.2_4A_USA_MD_BALTIMORE_StructureDefinition"
+        }
+    ],
+    "DaySchedules": [
+        {
+            "$id": "100",
+            "Category": "Day",
+            "Type": "Fraction",
+            "Values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Day_24_Hours_Off"
+        },
+        {
+            "$id": "101",
+            "Category": "Day",
+            "Type": "Fraction",
+            "Values": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Day_24_Hours_On"
+        },
+        {
+            "$id": "108",
+            "Category": "Day",
+            "Type": "Fraction",
+            "Values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Comments": "default",
+            "DataSource": "default",
+            "Name": "IBB_Day_General_Nat_Vent"
+        },
+        {
+            "$id": "111",
+            "Category": "Day",
+            "Type": "Fraction",
+            "Values": [
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8
+            ],
+            "Comments": "default",
+            "DataSource": "default",
+            "Name": "IBB_Day_Huzurevi_Otel_DHW"
+        },
+        {
+            "$id": "107",
+            "Category": "Day",
+            "Type": "Fraction",
+            "Values": [
+                0.7,
+                0.7,
+                0.7,
+                0.7,
+                0.7,
+                0.7,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Day_Huzurevi_Otel_Equipment"
+        },
+        {
+            "$id": "104",
+            "Category": "Day",
+            "Type": "Fraction",
+            "Values": [
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Day_Huzurevi_Otel_Lighting"
+        },
+        {
+            "$id": "103",
+            "Category": "Day",
+            "Type": "Fraction",
+            "Values": [
+                0.6,
+                0.6,
+                0.6,
+                0.6,
+                0.6,
+                0.6,
+                0.6,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8
+            ],
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Day_Huzurevi_Otel_Occupancy"
+        },
+        {
+            "$id": "106",
+            "Category": "Day",
+            "Type": "Fraction",
+            "Values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4,
+                0.6,
+                0.6,
+                0.6,
+                0.6,
+                1.0,
+                1.0,
+                0.8,
+                0.8,
+                0.8,
+                0.4,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Comments": "default",
+            "DataSource": "default",
+            "Name": "IBB_Day_Ofis_Sosyal_Bina_DHW_07_17"
+        },
+        {
+            "$id": "112",
+            "Category": "Day",
+            "Type": "Fraction",
+            "Values": [
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2
+            ],
+            "Comments": "default",
+            "DataSource": "default",
+            "Name": "IBB_Day_Ofis_Sosyal_Bina_Equipment_07_17"
+        },
+        {
+            "$id": "102",
+            "Category": "Day",
+            "Type": "Fraction",
+            "Values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Day_Ofis_Sosyal_Bina_Heating_Cooling_07_17"
+        },
+        {
+            "$id": "109",
+            "Category": "Day",
+            "Type": "Fraction",
+            "Values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Comments": "default",
+            "DataSource": "default",
+            "Name": "IBB_Day_Ofis_Sosyal_Bina_Working_Hours_07_17"
+        },
+        {
+            "$id": "113",
+            "Category": "Day",
+            "Type": "Fraction",
+            "Values": [
+                0.6,
+                0.6,
+                0.6,
+                0.6,
+                0.6,
+                0.6,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                0.6,
+                0.6,
+                0.6,
+                0.6,
+                0.6,
+                0.6,
+                0.6
+            ],
+            "Comments": "default",
+            "DataSource": "default",
+            "Name": "IBB_Day_Saglik_Merkezi_Lighting_07_17"
+        },
+        {
+            "$id": "114",
+            "Category": "Day",
+            "Type": "Fraction",
+            "Values": [
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8,
+                0.8
+            ],
+            "Comments": "default",
+            "DataSource": "default",
+            "Name": "IBB_Day_Saglik_Merkezi_Occupancy_Weekdays"
+        },
+        {
+            "$id": "110",
+            "Category": "Day",
+            "Type": "Fraction",
+            "Values": [
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5
+            ],
+            "Comments": "default",
+            "DataSource": "default",
+            "Name": "IBB_Day_Saglik_Merkezi_Occupancy_Weekend"
+        },
+        {
+            "$id": "105",
+            "Category": "Day",
+            "Type": "Fraction",
+            "Values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Day_Spor_Merkezi_Working_Hours_09_21"
+        },
+        {
+            "$id": "140412431652800",
+            "Category": "Day",
+            "Type": "Fraction",
+            "Values": [
+                0.054,
+                0.054,
+                0.054,
+                0.054,
+                0.101,
+                0.197,
+                0.399,
+                0.502,
+                0.495,
+                0.364,
+                0.168,
+                0.168,
+                0.168,
+                0.168,
+                0.168,
+                0.168,
+                0.358,
+                0.495,
+                0.492,
+                0.396,
+                0.4,
+                0.305,
+                0.201,
+                0.101
+            ],
+            "Comments": null,
+            "DataSource": null,
+            "Name": "d_Combined_UmiSchedule_68a84b776d260e03ed1758b291eae990_00_10"
+        },
+        {
+            "$id": "140412431652288",
+            "Category": "Day",
+            "Type": "Fraction",
+            "Values": [
+                0.054,
+                0.054,
+                0.054,
+                0.054,
+                0.101,
+                0.197,
+                0.399,
+                0.502,
+                0.495,
+                0.364,
+                0.168,
+                0.168,
+                0.168,
+                0.168,
+                0.168,
+                0.168,
+                0.358,
+                0.495,
+                0.492,
+                0.396,
+                0.4,
+                0.305,
+                0.201,
+                0.101
+            ],
+            "Comments": null,
+            "DataSource": null,
+            "Name": "d_Combined_UmiSchedule_68a84b776d260e03ed1758b291eae990_00_11"
+        }
+    ],
+    "WeekSchedules": [
+        {
+            "$id": "204",
+            "Category": "Week",
+            "Days": [
+                {
+                    "$ref": "100"
+                },
+                {
+                    "$ref": "100"
+                },
+                {
+                    "$ref": "100"
+                },
+                {
+                    "$ref": "100"
+                },
+                {
+                    "$ref": "100"
+                },
+                {
+                    "$ref": "100"
+                },
+                {
+                    "$ref": "100"
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Week_Always_Off"
+        },
+        {
+            "$id": "205",
+            "Category": "Week",
+            "Days": [
+                {
+                    "$ref": "101"
+                },
+                {
+                    "$ref": "101"
+                },
+                {
+                    "$ref": "101"
+                },
+                {
+                    "$ref": "101"
+                },
+                {
+                    "$ref": "101"
+                },
+                {
+                    "$ref": "101"
+                },
+                {
+                    "$ref": "101"
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Week_Always_On"
+        },
+        {
+            "$id": "206",
+            "Category": "Week",
+            "Days": [
+                {
+                    "$ref": "108"
+                },
+                {
+                    "$ref": "108"
+                },
+                {
+                    "$ref": "108"
+                },
+                {
+                    "$ref": "108"
+                },
+                {
+                    "$ref": "108"
+                },
+                {
+                    "$ref": "108"
+                },
+                {
+                    "$ref": "108"
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Week_General_Nat_Vent"
+        },
+        {
+            "$id": "203",
+            "Category": "Week",
+            "Days": [
+                {
+                    "$ref": "111"
+                },
+                {
+                    "$ref": "111"
+                },
+                {
+                    "$ref": "111"
+                },
+                {
+                    "$ref": "111"
+                },
+                {
+                    "$ref": "111"
+                },
+                {
+                    "$ref": "111"
+                },
+                {
+                    "$ref": "111"
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Week_Huzurevi_Otel_DHW"
+        },
+        {
+            "$id": "200",
+            "Category": "Week",
+            "Days": [
+                {
+                    "$ref": "107"
+                },
+                {
+                    "$ref": "107"
+                },
+                {
+                    "$ref": "107"
+                },
+                {
+                    "$ref": "107"
+                },
+                {
+                    "$ref": "107"
+                },
+                {
+                    "$ref": "107"
+                },
+                {
+                    "$ref": "107"
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Week_Huzurevi_Otel_Equipment"
+        },
+        {
+            "$id": "201",
+            "Category": "Week",
+            "Days": [
+                {
+                    "$ref": "104"
+                },
+                {
+                    "$ref": "104"
+                },
+                {
+                    "$ref": "104"
+                },
+                {
+                    "$ref": "104"
+                },
+                {
+                    "$ref": "104"
+                },
+                {
+                    "$ref": "104"
+                },
+                {
+                    "$ref": "104"
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Week_Huzurevi_Otel_Lighting"
+        },
+        {
+            "$id": "202",
+            "Category": "Week",
+            "Days": [
+                {
+                    "$ref": "103"
+                },
+                {
+                    "$ref": "103"
+                },
+                {
+                    "$ref": "103"
+                },
+                {
+                    "$ref": "103"
+                },
+                {
+                    "$ref": "103"
+                },
+                {
+                    "$ref": "103"
+                },
+                {
+                    "$ref": "103"
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Week_Huzurevi_Otel_Occupancy"
+        },
+        {
+            "$id": "209",
+            "Category": "Week",
+            "Days": [
+                {
+                    "$ref": "106"
+                },
+                {
+                    "$ref": "106"
+                },
+                {
+                    "$ref": "106"
+                },
+                {
+                    "$ref": "106"
+                },
+                {
+                    "$ref": "106"
+                },
+                {
+                    "$ref": "100"
+                },
+                {
+                    "$ref": "100"
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Week_Ofis_Sosyal_Bina_DHW"
+        },
+        {
+            "$id": "207",
+            "Category": "Week",
+            "Days": [
+                {
+                    "$ref": "112"
+                },
+                {
+                    "$ref": "112"
+                },
+                {
+                    "$ref": "112"
+                },
+                {
+                    "$ref": "112"
+                },
+                {
+                    "$ref": "112"
+                },
+                {
+                    "$ref": "100"
+                },
+                {
+                    "$ref": "100"
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Week_Ofis_Sosyal_Bina_Equipment"
+        },
+        {
+            "$id": "210",
+            "Category": "Week",
+            "Days": [
+                {
+                    "$ref": "102"
+                },
+                {
+                    "$ref": "102"
+                },
+                {
+                    "$ref": "102"
+                },
+                {
+                    "$ref": "102"
+                },
+                {
+                    "$ref": "102"
+                },
+                {
+                    "$ref": "100"
+                },
+                {
+                    "$ref": "100"
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Week_Ofis_Sosyal_Bina_Heating_Cooling"
+        },
+        {
+            "$id": "208",
+            "Category": "Week",
+            "Days": [
+                {
+                    "$ref": "109"
+                },
+                {
+                    "$ref": "109"
+                },
+                {
+                    "$ref": "109"
+                },
+                {
+                    "$ref": "109"
+                },
+                {
+                    "$ref": "109"
+                },
+                {
+                    "$ref": "100"
+                },
+                {
+                    "$ref": "100"
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Week_Ofis_Sosyal_Bina_Lighting_Occupancy"
+        },
+        {
+            "$id": "212",
+            "Category": "Week",
+            "Days": [
+                {
+                    "$ref": "101"
+                },
+                {
+                    "$ref": "101"
+                },
+                {
+                    "$ref": "101"
+                },
+                {
+                    "$ref": "101"
+                },
+                {
+                    "$ref": "101"
+                },
+                {
+                    "$ref": "101"
+                },
+                {
+                    "$ref": "101"
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Week_Saglik_Merkezi_General"
+        },
+        {
+            "$id": "213",
+            "Category": "Week",
+            "Days": [
+                {
+                    "$ref": "113"
+                },
+                {
+                    "$ref": "113"
+                },
+                {
+                    "$ref": "113"
+                },
+                {
+                    "$ref": "113"
+                },
+                {
+                    "$ref": "113"
+                },
+                {
+                    "$ref": "113"
+                },
+                {
+                    "$ref": "113"
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Week_Saglik_Merkezi_Lighting"
+        },
+        {
+            "$id": "214",
+            "Category": "Week",
+            "Days": [
+                {
+                    "$ref": "114"
+                },
+                {
+                    "$ref": "114"
+                },
+                {
+                    "$ref": "114"
+                },
+                {
+                    "$ref": "114"
+                },
+                {
+                    "$ref": "114"
+                },
+                {
+                    "$ref": "110"
+                },
+                {
+                    "$ref": "110"
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Week_Saglik_Merkezi_Occupancy"
+        },
+        {
+            "$id": "211",
+            "Category": "Week",
+            "Days": [
+                {
+                    "$ref": "105"
+                },
+                {
+                    "$ref": "105"
+                },
+                {
+                    "$ref": "105"
+                },
+                {
+                    "$ref": "105"
+                },
+                {
+                    "$ref": "105"
+                },
+                {
+                    "$ref": "105"
+                },
+                {
+                    "$ref": "105"
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Week_Spor_Merkezi_General"
+        },
+        {
+            "$id": "140412780347456",
+            "Category": "Week",
+            "Days": [
+                {
+                    "$ref": "100"
+                },
+                {
+                    "$ref": "100"
+                },
+                {
+                    "$ref": "100"
+                },
+                {
+                    "$ref": "100"
+                },
+                {
+                    "$ref": "100"
+                },
+                {
+                    "$ref": "100"
+                },
+                {
+                    "$ref": "100"
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "w_AlwaysOff_34"
+        }
+    ],
+    "YearSchedules": [
+        {
+            "$id": "140412778811968",
+            "Category": "Year",
+            "Parts": [
+                {
+                    "FromDay": 1,
+                    "FromMonth": 1,
+                    "ToDay": 31,
+                    "ToMonth": 12,
+                    "Schedule": {
+                        "$ref": "140412780347456"
+                    }
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "AlwaysOff_34"
+        },
+        {
+            "$id": "5000",
+            "Category": "Year",
+            "Parts": [
+                {
+                    "FromDay": 1,
+                    "FromMonth": 1,
+                    "ToDay": 31,
+                    "ToMonth": 12,
+                    "Schedule": {
+                        "$ref": "140412780347456"
+                    }
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "AlwaysOff_34_1"
+        },
+        {
+            "$id": "300",
+            "Category": "Year",
+            "Parts": [
+                {
+                    "FromDay": 1,
+                    "FromMonth": 1,
+                    "ToDay": 31,
+                    "ToMonth": 12,
+                    "Schedule": {
+                        "$ref": "206"
+                    }
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Year_General_Nat_Vent"
+        },
+        {
+            "$id": "304",
+            "Category": "Year",
+            "Parts": [
+                {
+                    "FromDay": 1,
+                    "FromMonth": 1,
+                    "ToDay": 31,
+                    "ToMonth": 12,
+                    "Schedule": {
+                        "$ref": "203"
+                    }
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Year_Huzurevi_Otel_DHW"
+        },
+        {
+            "$id": "301",
+            "Category": "Year",
+            "Parts": [
+                {
+                    "FromDay": 1,
+                    "FromMonth": 1,
+                    "ToDay": 31,
+                    "ToMonth": 12,
+                    "Schedule": {
+                        "$ref": "200"
+                    }
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Year_Huzurevi_Otel_Equipment"
+        },
+        {
+            "$id": "312",
+            "Category": "Year",
+            "Parts": [
+                {
+                    "FromDay": 1,
+                    "FromMonth": 1,
+                    "ToDay": 15,
+                    "ToMonth": 5,
+                    "Schedule": {
+                        "$ref": "205"
+                    }
+                },
+                {
+                    "FromDay": 16,
+                    "FromMonth": 5,
+                    "ToDay": 14,
+                    "ToMonth": 10,
+                    "Schedule": {
+                        "$ref": "204"
+                    }
+                },
+                {
+                    "FromDay": 15,
+                    "FromMonth": 10,
+                    "ToDay": 31,
+                    "ToMonth": 12,
+                    "Schedule": {
+                        "$ref": "205"
+                    }
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Year_Huzurevi_Otel_Heating"
+        },
+        {
+            "$id": "302",
+            "Category": "Year",
+            "Parts": [
+                {
+                    "FromDay": 1,
+                    "FromMonth": 1,
+                    "ToDay": 31,
+                    "ToMonth": 12,
+                    "Schedule": {
+                        "$ref": "201"
+                    }
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Year_Huzurevi_Otel_Lighting"
+        },
+        {
+            "$id": "303",
+            "Category": "Year",
+            "Parts": [
+                {
+                    "FromDay": 1,
+                    "FromMonth": 1,
+                    "ToDay": 31,
+                    "ToMonth": 12,
+                    "Schedule": {
+                        "$ref": "202"
+                    }
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Year_Huzurevi_Otel_Occupancy"
+        },
+        {
+            "$id": "316",
+            "Category": "Year",
+            "Parts": [
+                {
+                    "FromDay": 1,
+                    "FromMonth": 1,
+                    "ToDay": 15,
+                    "ToMonth": 5,
+                    "Schedule": {
+                        "$ref": "212"
+                    }
+                },
+                {
+                    "FromDay": 16,
+                    "FromMonth": 5,
+                    "ToDay": 14,
+                    "ToMonth": 10,
+                    "Schedule": {
+                        "$ref": "204"
+                    }
+                },
+                {
+                    "FromDay": 15,
+                    "FromMonth": 10,
+                    "ToDay": 31,
+                    "ToMonth": 12,
+                    "Schedule": {
+                        "$ref": "212"
+                    }
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Year_Ofis_Saglik_Merkezi_Heating"
+        },
+        {
+            "$id": "314",
+            "Category": "Year",
+            "Parts": [
+                {
+                    "FromDay": 1,
+                    "FromMonth": 1,
+                    "ToDay": 15,
+                    "ToMonth": 5,
+                    "Schedule": {
+                        "$ref": "204"
+                    }
+                },
+                {
+                    "FromDay": 16,
+                    "FromMonth": 5,
+                    "ToDay": 14,
+                    "ToMonth": 10,
+                    "Schedule": {
+                        "$ref": "210"
+                    }
+                },
+                {
+                    "FromDay": 15,
+                    "FromMonth": 10,
+                    "ToDay": 31,
+                    "ToMonth": 12,
+                    "Schedule": {
+                        "$ref": "204"
+                    }
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Year_Ofis_Sosyal_Bina_Cooling"
+        },
+        {
+            "$id": "307",
+            "Category": "Year",
+            "Parts": [
+                {
+                    "FromDay": 1,
+                    "FromMonth": 1,
+                    "ToDay": 31,
+                    "ToMonth": 12,
+                    "Schedule": {
+                        "$ref": "209"
+                    }
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Year_Ofis_Sosyal_Bina_DHW"
+        },
+        {
+            "$id": "305",
+            "Category": "Year",
+            "Parts": [
+                {
+                    "FromDay": 1,
+                    "FromMonth": 1,
+                    "ToDay": 31,
+                    "ToMonth": 12,
+                    "Schedule": {
+                        "$ref": "207"
+                    }
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Year_Ofis_Sosyal_Bina_Equipment"
+        },
+        {
+            "$id": "313",
+            "Category": "Year",
+            "Parts": [
+                {
+                    "FromDay": 1,
+                    "FromMonth": 1,
+                    "ToDay": 15,
+                    "ToMonth": 5,
+                    "Schedule": {
+                        "$ref": "210"
+                    }
+                },
+                {
+                    "FromDay": 16,
+                    "FromMonth": 5,
+                    "ToDay": 14,
+                    "ToMonth": 10,
+                    "Schedule": {
+                        "$ref": "204"
+                    }
+                },
+                {
+                    "FromDay": 15,
+                    "FromMonth": 10,
+                    "ToDay": 31,
+                    "ToMonth": 12,
+                    "Schedule": {
+                        "$ref": "210"
+                    }
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Year_Ofis_Sosyal_Bina_Heating"
+        },
+        {
+            "$id": "306",
+            "Category": "Year",
+            "Parts": [
+                {
+                    "FromDay": 1,
+                    "FromMonth": 1,
+                    "ToDay": 31,
+                    "ToMonth": 12,
+                    "Schedule": {
+                        "$ref": "208"
+                    }
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Year_Ofis_Sosyal_Bina_Lighting_Occupancy"
+        },
+        {
+            "$id": "315",
+            "Category": "Year",
+            "Parts": [
+                {
+                    "FromDay": 1,
+                    "FromMonth": 1,
+                    "ToDay": 15,
+                    "ToMonth": 5,
+                    "Schedule": {
+                        "$ref": "211"
+                    }
+                },
+                {
+                    "FromDay": 16,
+                    "FromMonth": 5,
+                    "ToDay": 14,
+                    "ToMonth": 10,
+                    "Schedule": {
+                        "$ref": "204"
+                    }
+                },
+                {
+                    "FromDay": 15,
+                    "FromMonth": 10,
+                    "ToDay": 31,
+                    "ToMonth": 12,
+                    "Schedule": {
+                        "$ref": "211"
+                    }
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Year_Ofis_Spor_Merkezi_Heating"
+        },
+        {
+            "$id": "309",
+            "Category": "Year",
+            "Parts": [
+                {
+                    "FromDay": 1,
+                    "FromMonth": 1,
+                    "ToDay": 31,
+                    "ToMonth": 12,
+                    "Schedule": {
+                        "$ref": "212"
+                    }
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Year_Saglik_Merkezi_Equipment_DHW"
+        },
+        {
+            "$id": "310",
+            "Category": "Year",
+            "Parts": [
+                {
+                    "FromDay": 1,
+                    "FromMonth": 1,
+                    "ToDay": 31,
+                    "ToMonth": 12,
+                    "Schedule": {
+                        "$ref": "213"
+                    }
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Year_Saglik_Merkezi_Lighting"
+        },
+        {
+            "$id": "311",
+            "Category": "Year",
+            "Parts": [
+                {
+                    "FromDay": 1,
+                    "FromMonth": 1,
+                    "ToDay": 31,
+                    "ToMonth": 12,
+                    "Schedule": {
+                        "$ref": "214"
+                    }
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Year_Saglik_Merkezi_Occupancy"
+        },
+        {
+            "$id": "308",
+            "Category": "Year",
+            "Parts": [
+                {
+                    "FromDay": 1,
+                    "FromMonth": 1,
+                    "ToDay": 31,
+                    "ToMonth": 12,
+                    "Schedule": {
+                        "$ref": "211"
+                    }
+                }
+            ],
+            "Type": "Fraction",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "IBB_Year_Spor_Merkezi_General"
+        }
+    ],
+    "DomesticHotWaterSettings": [
+        {
+            "$id": "140412776378576",
+            "FlowRatePerFloorArea": 0.0002899,
+            "IsOn": true,
+            "WaterSchedule": {
+                "$ref": "304"
+            },
+            "WaterSupplyTemperature": 60.0,
+            "WaterTemperatureInlet": 16.0,
+            "Category": "RefBldgSmallHotelNew2004_v1.4_7.2_4A_USA_MD_BALTIMORE.idf",
+            "Comments": "Object composed of a combination of these objects:\nGuestRoom302_305_DHW\n- GuestRoom414_DHW\n- GuestRoom224_DHW\n- GuestRoom319_DHW\n- Combined_DomesticHotWaterSetting_8734503231506\n- GuestRoom406_408_DHW\n- GuestRoom324_DHW\n- GuestRoom301_DHW\n- GuestRoom219_DHW\n- Combined_DomesticHotWaterSetting_8734503289674\n- GuestRoom314_DHW\n- LaundryRoomFlr1_DHW\n- Combined_DomesticHotWaterSetting_8734503229784\n- Combined_DomesticHotWaterSetting_8734503231646\n- GuestRoom104_DHW\n- Combined_DomesticHotWaterSetting_8734503229840\n- GuestRoom413_DHW\n- GuestRoom214_DHW\n- Combined_DomesticHotWaterSetting_8734503229910\n- GuestRoom220_223_DHW\n- Combined_DomesticHotWaterSetting_8734502284064\n- GuestRoom306_308_DHW\n- Combined_DomesticHotWaterSetting_8734502285572\n- Combined_DomesticHotWaterSetting_8734503289730\n- Combined_DomesticHotWaterSetting_8734503289611\n- Combined_DomesticHotWaterSetting_8734502287255\n- GuestRoom102_DHW\n- GuestRoom313_DHW\n- GuestRoom402_405_DHW\n- GuestRoom103_DHW\n- Combined_DomesticHotWaterSetting_8734503289814\n- GuestRoom201_DHW\n- Combined_DomesticHotWaterSetting_8734502284176\n- Combined_DomesticHotWaterSetting_8734503231576\n- GuestRoom202_205_DHW\n- GuestRoom105_DHW\n- Combined_DomesticHotWaterSetting_8734502287136\n- Combined_DomesticHotWaterSetting_8734502284120\n- Combined_DomesticHotWaterSetting_8734502285628\n- Combined_DomesticHotWaterSetting_8734502287283\n- GuestRoom424_DHW\n- Combined_DomesticHotWaterSetting_8734503231534\n- Combined_DomesticHotWaterSetting_8734503289646\n- Combined_DomesticHotWaterSetting_8734502287311\n- GuestRoom309_312_DHW\n- Combined_DomesticHotWaterSetting_8734502285740\n- GuestRoom401_DHW\n- Combined_DomesticHotWaterSetting_8734502284232\n- GuestRoom209_212_DHW\n- GuestRoom320_323_DHW\n- Combined_DomesticHotWaterSetting_8734502287339\n- Combined_DomesticHotWaterSetting_8734503229707\n- GuestRoom415_418_DHW\n- Combined_DomesticHotWaterSetting_8734503231716\n- GuestRoom419_DHW\n- Combined_DomesticHotWaterSetting_8734502285684\n- Combined_DomesticHotWaterSetting_8734503289786\n- GuestRoom409_412_DHW\n- Combined_DomesticHotWaterSetting_8734502287171\n- Combined_DomesticHotWaterSetting_8734502287199\n- GuestRoom213_DHW\n- Combined_DomesticHotWaterSetting_8734502285796\n- GuestRoom206_208_DHW\n- Combined_DomesticHotWaterSetting_8734503289702\n- GuestRoom315_318_DHW\n- Combined_DomesticHotWaterSetting_8734503289758\n- GuestRoom101_DHW\n- Combined_DomesticHotWaterSetting_8734502287227\n- GuestRoom420_423_DHW\n- GuestRoom215_218_DHW",
+            "DataSource": null,
+            "Name": "Combined_DomesticHotWaterSetting_8734503289842 - Otel"
+        },
+        {
+            "$id": "140412776950368",
+            "FlowRatePerFloorArea": 0.0001573,
+            "IsOn": true,
+            "WaterSchedule": {
+                "$ref": "309"
+            },
+            "WaterSupplyTemperature": 60.0,
+            "WaterTemperatureInlet": 16.0,
+            "Category": "RefBldgOutPatientNew2004_v1.4_7.2_4A_USA_MD_BALTIMORE.idf",
+            "Comments": "Object composed of a combination of these objects:\nCombined_DomesticHotWaterSetting_8749389556438\n- Floor 1 MRI Room_DHW\n- Floor 1 PACU_DHW\n- Combined_DomesticHotWaterSetting_8749389553433\n- Combined_DomesticHotWaterSetting_8749389552549\n- Floor 1 Operating Room 3_DHW\n- Combined_DomesticHotWaterSetting_8749389552507\n- Floor 2 X-Ray_DHW\n- Floor 3 Physical Therapy 2_DHW\n- Floor 1 Pre-Op Room 2_DHW",
+            "DataSource": null,
+            "Name": "Combined_DomesticHotWaterSetting_8749389174209 - Saglik Merkezi"
+        },
+        {
+            "$id": "140412404241312",
+            "FlowRatePerFloorArea": 0.000111,
+            "IsOn": true,
+            "WaterSchedule": {
+                "$ref": "307"
+            },
+            "WaterSupplyTemperature": 60.0,
+            "WaterTemperatureInlet": 16.0,
+            "Category": "RefBldgMediumOfficeNew2004_v1.4_7.2_4A_USA_MD_BALTIMORE.idf",
+            "Comments": "Object composed of a combination of these objects:\nCore_top_DHW\n- Combined_DomesticHotWaterSetting_8773338097247\n- Core_bottom_DHW\n- Core_mid_DHW",
+            "DataSource": null,
+            "Name": "Combined_DomesticHotWaterSetting_8773338065289 - Ofis"
+        },
+        {
+            "$id": "140412777748800",
+            "FlowRatePerFloorArea": 0.000101,
+            "IsOn": true,
+            "WaterSchedule": {
+                "$ref": "307"
+            },
+            "WaterSupplyTemperature": 60.0,
+            "WaterTemperatureInlet": 16.0,
+            "Category": "RefBldgSmallOfficeNew2004_v1.4_7.2_8A_USA_AK_FAIRBANKS.idf",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Core_ZN_DHW - Sosyal Bina"
+        },
+        {
+            "$id": "140412780305424",
+            "FlowRatePerFloorArea": 0.000549,
+            "IsOn": true,
+            "WaterSchedule": {
+                "$ref": "304"
+            },
+            "WaterSupplyTemperature": 60.0,
+            "WaterTemperatureInlet": 16.0,
+            "Category": "RefBldgMidriseApartmentNew2004_v1.4_7.2_8A_USA_AK_FAIRBANKS.idf",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "G SW Apartment_DHW - Huzurevi"
+        },
+        {
+            "$id": "140412432610353",
+            "FlowRatePerFloorArea": 0.000168,
+            "IsOn": true,
+            "WaterSchedule": {
+                "$ref": "308"
+            },
+            "WaterSupplyTemperature": 60.0,
+            "WaterTemperatureInlet": 10.0,
+            "Category": "RefBldgStripMallNew2004_v1.4_7.2_4A_USA_MD_BALTIMORE.idf",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "RefBldgStripMallNew2004_v1.4_7.2_4A_USA_MD_BALTIMORE.idf_DHW - Spor Merkezi"
+        }
+    ],
+    "VentilationSettings": [
+        {
+            "$id": "140412459744128",
+            "Afn": false,
+            "IsBuoyancyOn": false,
+            "Infiltration": 0.3,
+            "IsInfiltrationOn": true,
+            "IsNatVentOn": true,
+            "IsScheduledVentilationOn": false,
+            "NatVentMaxRelHumidity": 90.0,
+            "NatVentMaxOutdoorAirTemp": 27.0,
+            "NatVentMinOutdoorAirTemp": 21.0,
+            "NatVentSchedule": {
+                "$ref": "300"
+            },
+            "NatVentZoneTempSetpoint": 26.0,
+            "ScheduledVentilationAch": 0.0,
+            "ScheduledVentilationSchedule": {
+                "$ref": "300"
+            },
+            "ScheduledVentilationSetpoint": 18.0,
+            "IsWindOn": true,
+            "Category": "",
+            "Comments": "Object composed of a combination of these objects:\nMeetingRoomFlr1_VentilationSetting\n- GuestRoom406_408_VentilationSetting\n- Combined_VentilationSetting_8734502284176\n- Combined_VentilationSetting_8734503229896\n- Combined_VentilationSetting_8734503229707\n- Combined_VentilationSetting_8734503229840\n- GuestRoom409_412_VentilationSetting\n- GuestRoom209_212_VentilationSetting\n- Combined_VentilationSetting_8734503293230\n- GuestRoom309_312_VentilationSetting\n- Combined_VentilationSetting_8734503231534\n- Combined_VentilationSetting_8734503289814\n- Combined_VentilationSetting_8734503289758\n- Combined_VentilationSetting_8734502285684\n- RearStairsFlr4_VentilationSetting\n- MechanicalRoomFlr1_VentilationSetting\n- RearStairsFlr3_VentilationSetting\n- FrontStorageFlr4_VentilationSetting\n- Combined_VentilationSetting_8734503293265\n- ExerciseCenterFlr1_VentilationSetting\n- Combined_VentilationSetting_8734503229735\n- Combined_VentilationSetting_8734503219274\n- GuestRoom424_VentilationSetting\n- Combined_VentilationSetting_8734503219351\n- RearStorageFlr1_VentilationSetting\n- LaundryRoomFlr1_VentilationSetting\n- ElevatorCoreFlr1_VentilationSetting\n- CorridorFlr1_VentilationSetting\n- FrontStorageFlr3_VentilationSetting\n- Combined_VentilationSetting_8734503289611\n- GuestRoom220_223_VentilationSetting\n- Combined_VentilationSetting_8734503293237\n- FrontStorageFlr2_VentilationSetting\n- Combined_VentilationSetting_8734503229910\n- FrontStairsFlr2_VentilationSetting\n- GuestRoom313_VentilationSetting\n- Combined_VentilationSetting_8734502287255\n- Combined_VentilationSetting_8734503293244\n- GuestRoom102_VentilationSetting\n- Combined_VentilationSetting_8734503289702\n- Combined_VentilationSetting_8734503289674\n- GuestRoom401_VentilationSetting\n- RearStorageFlr3_VentilationSetting\n- Combined_VentilationSetting_8734502285740\n- Combined_VentilationSetting_8734503219358\n- Combined_VentilationSetting_8734502285628\n- Combined_VentilationSetting_8734503293258\n- EmployeeLoungeFlr1_VentilationSetting\n- Combined_VentilationSetting_8734503293279\n- GuestRoom315_318_VentilationSetting\n- Combined_VentilationSetting_8734503219400\n- Combined_VentilationSetting_8734503231646\n- GuestRoom415_418_VentilationSetting\n- Combined_VentilationSetting_8734503231576\n- ElevatorCoreFlr3_VentilationSetting\n- Combined_VentilationSetting_8734503231506\n- Combined_VentilationSetting_8734503219407\n- GuestRoom413_VentilationSetting\n- GuestRoom206_208_VentilationSetting\n- GuestRoom324_VentilationSetting\n- Combined_VentilationSetting_8734503229784\n- GuestRoom101_VentilationSetting\n- Combined_VentilationSetting_8734503293251\n- GuestRoom104_VentilationSetting\n- Combined_VentilationSetting_8734503289730\n- ElevatorCoreFlr2_VentilationSetting\n- Combined_VentilationSetting_8734502285572\n- Combined_VentilationSetting_8734502284064\n- Combined_VentilationSetting_8734502287171\n- Combined_VentilationSetting_8734502287136\n- GuestRoom420_423_VentilationSetting\n- ElevatorCoreFlr4_VentilationSetting\n- GuestRoom414_VentilationSetting\n- Combined_VentilationSetting_8734503229938\n- Combined_VentilationSetting_8734502284232\n- FrontLoungeFlr1_VentilationSetting\n- GuestRoom320_323_VentilationSetting\n- Combined_VentilationSetting_8734503219386\n- Combined_VentilationSetting_8734503289842\n- FrontStairsFlr1_VentilationSetting\n- GuestRoom213_VentilationSetting\n- Combined_VentilationSetting_8734502287199\n- CorridorFlr4_VentilationSetting\n- Combined_VentilationSetting_8734502285796\n- GuestRoom319_VentilationSetting\n- Combined_VentilationSetting_8734503229798\n- Combined_VentilationSetting_8734502287283\n- GuestRoom402_405_VentilationSetting\n- Combined_VentilationSetting_8734503293209\n- Combined_VentilationSetting_8734502287339\n- Combined_VentilationSetting_8734503289646\n- GuestRoom103_VentilationSetting\n- Combined_VentilationSetting_8734503293202\n- Combined_VentilationSetting_8734506903044\n- FrontStairsFlr4_VentilationSetting\n- RearStairsFlr1_VentilationSetting\n- GuestRoom302_305_VentilationSetting\n- GuestRoom202_205_VentilationSetting\n- Combined_VentilationSetting_8734503229714\n- RearStorageFlr2_VentilationSetting\n- Combined_VentilationSetting_8734503219428\n- GuestRoom301_VentilationSetting\n- GuestRoom419_VentilationSetting\n- Combined_VentilationSetting_8734503289786\n- Combined_VentilationSetting_8734503293272\n- GuestRoom314_VentilationSetting\n- GuestRoom219_VentilationSetting\n- Combined_VentilationSetting_8734503219435\n- GuestRoom306_308_VentilationSetting\n- FrontStairsFlr3_VentilationSetting\n- Combined_VentilationSetting_8734502287227\n- RestroomFlr1_VentilationSetting\n- Combined_VentilationSetting_8734502284120\n- Combined_VentilationSetting_8734503219288\n- FrontStorageFlr1_VentilationSetting\n- GuestRoom201_VentilationSetting\n- RearStorageFlr4_VentilationSetting\n- FrontOfficeFlr1_VentilationSetting\n- GuestRoom224_VentilationSetting\n- GuestRoom214_VentilationSetting\n- Combined_VentilationSetting_8734503229826\n- CorridorFlr3_VentilationSetting\n- Combined_VentilationSetting_8734503231716\n- GuestRoom105_VentilationSetting\n- CorridorFlr2_VentilationSetting\n- Combined_VentilationSetting_8734502287311\n- GuestRoom215_218_VentilationSetting\n- RearStairsFlr2_VentilationSetting",
+            "DataSource": null,
+            "Name": "Combined_VentilationSetting_8734503293286 - Otel"
+        },
+        {
+            "$id": "140412455616576",
+            "Afn": false,
+            "IsBuoyancyOn": false,
+            "Infiltration": 0.3,
+            "IsInfiltrationOn": true,
+            "IsNatVentOn": true,
+            "IsScheduledVentilationOn": false,
+            "NatVentMaxRelHumidity": 90.0,
+            "NatVentMaxOutdoorAirTemp": 27.0,
+            "NatVentMinOutdoorAirTemp": 21.0,
+            "NatVentSchedule": {
+                "$ref": "300"
+            },
+            "NatVentZoneTempSetpoint": 26.0,
+            "ScheduledVentilationAch": 0.0,
+            "ScheduledVentilationSchedule": {
+                "$ref": "300"
+            },
+            "ScheduledVentilationSetpoint": 18.0,
+            "IsWindOn": true,
+            "Category": "",
+            "Comments": "Object composed of a combination of these objects:\nCombined_VentilationSetting_8738053412433\n- SMstore3_VentilationSetting\n- Combined_VentilationSetting_8738053401860\n- SMstore4_VentilationSetting\n- SMstore6_VentilationSetting\n- SMstore2_VentilationSetting\n- SMstore5_VentilationSetting\n- SMstore7_VentilationSetting\n- Combined_VentilationSetting_8738053412587\n- Combined_VentilationSetting_8738053412552\n- Combined_VentilationSetting_8738053412356\n- Combined_VentilationSetting_8738053412531\n- LGstore1_VentilationSetting\n- Combined_VentilationSetting_8738053412447\n- SMstore8_VentilationSetting\n- Combined_VentilationSetting_8738053412580\n- SMstore1_VentilationSetting\n- LGstore2_VentilationSetting",
+            "DataSource": null,
+            "Name": "Combined_VentilationSetting_8738053412524 - Spor Merkezi"
+        },
+        {
+            "$id": "140412462831312",
+            "Afn": false,
+            "IsBuoyancyOn": false,
+            "Infiltration": 0.3,
+            "IsInfiltrationOn": true,
+            "IsNatVentOn": true,
+            "IsScheduledVentilationOn": false,
+            "NatVentMaxRelHumidity": 90.0,
+            "NatVentMaxOutdoorAirTemp": 27.0,
+            "NatVentMinOutdoorAirTemp": 21.0,
+            "NatVentSchedule": {
+                "$ref": "300"
+            },
+            "NatVentZoneTempSetpoint": 26.0,
+            "ScheduledVentilationAch": 0.0,
+            "ScheduledVentilationSchedule": {
+                "$ref": "300"
+            },
+            "ScheduledVentilationSetpoint": 18.0,
+            "IsWindOn": true,
+            "Category": "",
+            "Comments": "Object composed of a combination of these objects:\nM SE Apartment_VentilationSetting\n- T SE Apartment_VentilationSetting\n- Combined_VentilationSetting_8775524547791\n- M S1 Apartment_VentilationSetting\n- G S1 Apartment_VentilationSetting\n- Combined_VentilationSetting_8775500182472\n- T SW Apartment_VentilationSetting\n- Combined_VentilationSetting_8775524545326\n- M N2 Apartment_VentilationSetting\n- T NE Apartment_VentilationSetting\n- M N1 Apartment_VentilationSetting\n- T Corridor_VentilationSetting\n- G SW Apartment_VentilationSetting\n- Combined_VentilationSetting_8775500171317\n- Combined_VentilationSetting_8775500171401\n- T S1 Apartment_VentilationSetting\n- Combined_VentilationSetting_8775500171338\n- Combined_VentilationSetting_8775524538989\n- G N1 Apartment_VentilationSetting\n- Combined_VentilationSetting_8775524547644\n- G N2 Apartment_VentilationSetting\n- T N1 Apartment_VentilationSetting\n- G S2 Apartment_VentilationSetting\n- Combined_VentilationSetting_8775524547623\n- Combined_VentilationSetting_8775524545466\n- M S2 Apartment_VentilationSetting\n- T NW Apartment_VentilationSetting\n- G Corridor_VentilationSetting\n- Combined_VentilationSetting_8775524545382\n- M Corridor_VentilationSetting\n- Combined_VentilationSetting_8775500171345\n- Combined_VentilationSetting_8775524545312\n- Combined_VentilationSetting_8775524545522\n- M NW Apartment_VentilationSetting\n- Combined_VentilationSetting_8775524539129\n- T S2 Apartment_VentilationSetting\n- Combined_VentilationSetting_8775524547770\n- M SW Apartment_VentilationSetting\n- Combined_VentilationSetting_8775500171478\n- M NE Apartment_VentilationSetting\n- Combined_VentilationSetting_8775500171443\n- Combined_VentilationSetting_8775524538891\n- Combined_VentilationSetting_8775524539045\n- T N2 Apartment_VentilationSetting\n- Combined_VentilationSetting_8775524545431\n- Combined_VentilationSetting_8775500171485",
+            "DataSource": null,
+            "Name": "Combined_VentilationSetting_8775500185695 - Huzurevi"
+        },
+        {
+            "$id": "140412458196320",
+            "Afn": false,
+            "IsBuoyancyOn": false,
+            "Infiltration": 0.3,
+            "IsInfiltrationOn": true,
+            "IsNatVentOn": true,
+            "IsScheduledVentilationOn": false,
+            "NatVentMaxRelHumidity": 90.0,
+            "NatVentMaxOutdoorAirTemp": 27.0,
+            "NatVentMinOutdoorAirTemp": 21.0,
+            "NatVentSchedule": {
+                "$ref": "300"
+            },
+            "NatVentZoneTempSetpoint": 26.0,
+            "ScheduledVentilationAch": 0.0,
+            "ScheduledVentilationSchedule": {
+                "$ref": "300"
+            },
+            "ScheduledVentilationSetpoint": 18.0,
+            "IsWindOn": true,
+            "Category": "",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Core_ZN_VentilationSetting - Sosyal Bina"
+        },
+        {
+            "$id": "140412429248208",
+            "Afn": false,
+            "IsBuoyancyOn": false,
+            "Infiltration": 0.3,
+            "IsInfiltrationOn": true,
+            "IsNatVentOn": true,
+            "IsScheduledVentilationOn": false,
+            "NatVentMaxRelHumidity": 90.0,
+            "NatVentMaxOutdoorAirTemp": 27.0,
+            "NatVentMinOutdoorAirTemp": 21.0,
+            "NatVentSchedule": {
+                "$ref": "300"
+            },
+            "NatVentZoneTempSetpoint": 26.0,
+            "ScheduledVentilationAch": 0.0,
+            "ScheduledVentilationSchedule": {
+                "$ref": "300"
+            },
+            "ScheduledVentilationSetpoint": 18.0,
+            "IsWindOn": true,
+            "Category": "",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Core_bottom_VentilationSetting_1 - Ofis"
+        },
+        {
+            "$id": "140412429248209",
+            "Afn": false,
+            "IsBuoyancyOn": false,
+            "Infiltration": 0.3,
+            "IsInfiltrationOn": true,
+            "IsNatVentOn": true,
+            "IsScheduledVentilationOn": false,
+            "NatVentMaxRelHumidity": 90.0,
+            "NatVentMaxOutdoorAirTemp": 27.0,
+            "NatVentMinOutdoorAirTemp": 21.0,
+            "NatVentSchedule": {
+                "$ref": "300"
+            },
+            "NatVentZoneTempSetpoint": 26.0,
+            "ScheduledVentilationAch": 0.0,
+            "ScheduledVentilationSchedule": {
+                "$ref": "300"
+            },
+            "ScheduledVentilationSetpoint": 18.0,
+            "IsWindOn": true,
+            "Category": "",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Core_bottom_VentilationSetting_1 - Saglik Merkezi"
+        }
+    ],
+    "ZoneConditionings": [
+        {
+            "$id": "140412461583696",
+            "CoolingSchedule": {
+                "$ref": "5000"
+            },
+            "CoolingCoeffOfPerf": 2.53,
+            "CoolingSetpoint": 25.2,
+            "CoolingLimitType": 0,
+            "CoolingFuelType": 1,
+            "EconomizerType": 0,
+            "HeatingCoeffOfPerf": 0.877,
+            "HeatingLimitType": 0,
+            "HeatingFuelType": 2,
+            "HeatingSchedule": {
+                "$ref": "312"
+            },
+            "HeatingSetpoint": 20.0,
+            "HeatRecoveryEfficiencyLatent": 0.65,
+            "HeatRecoveryEfficiencySensible": 0.7,
+            "HeatRecoveryType": 0,
+            "IsCoolingOn": false,
+            "IsHeatingOn": true,
+            "IsMechVentOn": false,
+            "MaxCoolFlow": 100.0,
+            "MaxCoolingCapacity": 100.0,
+            "MaxHeatFlow": 100.0,
+            "MaxHeatingCapacity": 100.0,
+            "MechVentSchedule": {
+                "$ref": "300"
+            },
+            "MinFreshAirPerArea": 0.0,
+            "MinFreshAirPerPerson": 0.0,
+            "Category": "",
+            "Comments": "Object composed of a combination of these objects:\nCombined_ZoneConditioning_8734503289842\n- Combined_ZoneConditioning_8734503289611\n- Combined_ZoneConditioning_8734503229896\n- Combined_ZoneConditioning_8734503289814\n- Combined_ZoneConditioning_8734503231534\n- Combined_ZoneConditioning_8734502287283\n- FrontStorageFlr1_ZoneConditioning\n- FrontStairsFlr2_ZoneConditioning\n- FrontStairsFlr4_ZoneConditioning\n- GuestRoom414_ZoneConditioning\n- RearStorageFlr3_ZoneConditioning\n- RearStorageFlr1_ZoneConditioning\n- Combined_ZoneConditioning_8734503219407\n- GuestRoom320_323_ZoneConditioning\n- GuestRoom309_312_ZoneConditioning\n- Combined_ZoneConditioning_8734502287136\n- Combined_ZoneConditioning_8734503289646\n- Combined_ZoneConditioning_8734503231506\n- Combined_ZoneConditioning_8734502285628\n- FrontStorageFlr4_ZoneConditioning\n- GuestRoom209_212_ZoneConditioning\n- GuestRoom424_ZoneConditioning\n- Combined_ZoneConditioning_8734503293272\n- RearStairsFlr4_ZoneConditioning\n- Combined_ZoneConditioning_8734503293265\n- LaundryRoomFlr1_ZoneConditioning\n- Combined_ZoneConditioning_8734503229910\n- GuestRoom314_ZoneConditioning\n- GuestRoom103_ZoneConditioning\n- RearStorageFlr4_ZoneConditioning\n- Combined_ZoneConditioning_8734502287255\n- GuestRoom401_ZoneConditioning\n- GuestRoom105_ZoneConditioning\n- GuestRoom104_ZoneConditioning\n- GuestRoom419_ZoneConditioning\n- GuestRoom214_ZoneConditioning\n- Combined_ZoneConditioning_8734503293202\n- Combined_ZoneConditioning_8734503289786\n- Combined_ZoneConditioning_8734503289730\n- GuestRoom201_ZoneConditioning\n- Combined_ZoneConditioning_8734503229735\n- Combined_ZoneConditioning_8734503219386\n- GuestRoom224_ZoneConditioning\n- GuestRoom313_ZoneConditioning\n- Combined_ZoneConditioning_8734503293279\n- Combined_ZoneConditioning_8734503229938\n- GuestRoom306_308_ZoneConditioning\n- GuestRoom315_318_ZoneConditioning\n- FrontStairsFlr3_ZoneConditioning\n- FrontStairsFlr1_ZoneConditioning\n- Combined_ZoneConditioning_8734502287199\n- Combined_ZoneConditioning_8734502284176\n- Combined_ZoneConditioning_8734503229784\n- Combined_ZoneConditioning_8734502285572\n- Combined_ZoneConditioning_8734502287171\n- Combined_ZoneConditioning_8734503231646\n- Combined_ZoneConditioning_8734502287311\n- Combined_ZoneConditioning_8734502284064\n- RearStairsFlr3_ZoneConditioning\n- MeetingRoomFlr1_ZoneConditioning\n- GuestRoom415_418_ZoneConditioning\n- Combined_ZoneConditioning_8734503229714\n- FrontStorageFlr3_ZoneConditioning\n- GuestRoom302_305_ZoneConditioning\n- Combined_ZoneConditioning_8734502287339\n- Combined_ZoneConditioning_8734503229707\n- CorridorFlr1_ZoneConditioning\n- Combined_ZoneConditioning_8734503231576\n- Combined_ZoneConditioning_8734502285740\n- GuestRoom213_ZoneConditioning\n- GuestRoom406_408_ZoneConditioning\n- Combined_ZoneConditioning_8734503229840\n- GuestRoom324_ZoneConditioning\n- Combined_ZoneConditioning_8734502284232\n- GuestRoom319_ZoneConditioning\n- Combined_ZoneConditioning_8734502284120\n- Combined_ZoneConditioning_8734502285796\n- Combined_ZoneConditioning_8734503293237\n- RearStairsFlr2_ZoneConditioning\n- Combined_ZoneConditioning_8734503293230\n- GuestRoom413_ZoneConditioning\n- Combined_ZoneConditioning_8734503219358\n- Combined_ZoneConditioning_8734503289702\n- Combined_ZoneConditioning_8734502285684\n- GuestRoom420_423_ZoneConditioning\n- Combined_ZoneConditioning_8734503293244\n- Combined_ZoneConditioning_8734503289674\n- Combined_ZoneConditioning_8734503231716\n- Combined_ZoneConditioning_8734503289758\n- GuestRoom409_412_ZoneConditioning\n- GuestRoom102_ZoneConditioning\n- MechanicalRoomFlr1_ZoneConditioning\n- Combined_ZoneConditioning_8734503229798\n- GuestRoom402_405_ZoneConditioning\n- Combined_ZoneConditioning_8734502287227\n- GuestRoom219_ZoneConditioning\n- Combined_ZoneConditioning_8734503229826\n- GuestRoom301_ZoneConditioning\n- GuestRoom202_205_ZoneConditioning\n- Combined_ZoneConditioning_8734503293209\n- FrontStorageFlr2_ZoneConditioning\n- GuestRoom220_223_ZoneConditioning\n- GuestRoom101_ZoneConditioning\n- GuestRoom206_208_ZoneConditioning\n- Combined_ZoneConditioning_8734503293251\n- Combined_ZoneConditioning_8734503293258\n- RearStorageFlr2_ZoneConditioning\n- RestroomFlr1_ZoneConditioning\n- RearStairsFlr1_ZoneConditioning\n- GuestRoom215_218_ZoneConditioning",
+            "DataSource": null,
+            "Name": "Combined_ZoneConditioning_8734503293286 - Otel"
+        },
+        {
+            "$id": "140412462810672",
+            "CoolingSchedule": {
+                "$ref": "5000"
+            },
+            "CoolingCoeffOfPerf": 2.53,
+            "CoolingSetpoint": 24.1,
+            "CoolingLimitType": 0,
+            "CoolingFuelType": 1,
+            "EconomizerType": 0,
+            "HeatingCoeffOfPerf": 0.877,
+            "HeatingLimitType": 0,
+            "HeatingFuelType": 2,
+            "HeatingSchedule": {
+                "$ref": "316"
+            },
+            "HeatingSetpoint": 20.0,
+            "HeatRecoveryEfficiencyLatent": 0.65,
+            "HeatRecoveryEfficiencySensible": 0.7,
+            "HeatRecoveryType": 0,
+            "IsCoolingOn": false,
+            "IsHeatingOn": true,
+            "IsMechVentOn": false,
+            "MaxCoolFlow": 100.0,
+            "MaxCoolingCapacity": 100.0,
+            "MaxHeatFlow": 100.0,
+            "MaxHeatingCapacity": 100.0,
+            "MechVentSchedule": {
+                "$ref": "300"
+            },
+            "MinFreshAirPerArea": 0.0,
+            "MinFreshAirPerPerson": 0.0,
+            "Category": "",
+            "Comments": "Object composed of a combination of these objects:\nFloor 1 PACU_ZoneConditioning\n- Floor 1 Soil Hold_ZoneConditioning\n- Combined_ZoneConditioning_8749389556466\n- Combined_ZoneConditioning_8749389556424\n- Floor 1 Sterile Storage_ZoneConditioning\n- Floor 1 Pre-Op Room 2_ZoneConditioning\n- Combined_ZoneConditioning_8749389556368\n- Combined_ZoneConditioning_8749389552633\n- Floor 2 Scheduling 2_ZoneConditioning\n- Floor 3 Locker_ZoneConditioning\n- Combined_ZoneConditioning_8749389552423\n- Floor 1 Reception Hall_ZoneConditioning\n- Floor 2 X-Ray_ZoneConditioning\n- Floor 2 Nurse Station 1_ZoneConditioning\n- Combined_ZoneConditioning_8749389554699\n- Combined_ZoneConditioning_8749389556249\n- Combined_ZoneConditioning_8749389174195\n- Combined_ZoneConditioning_8749389554769\n- Floor 1 Soil_ZoneConditioning\n- Combined_ZoneConditioning_8749389553545\n- Combined_ZoneConditioning_8749389552451\n- Combined_ZoneConditioning_8749389556333\n- Floor 3 Mechanical Hall_ZoneConditioning\n- Combined_ZoneConditioning_8749389554937\n- Floor 2 Office Hall_ZoneConditioning\n- Floor 2 Nurse Station 2_ZoneConditioning\n- Combined_ZoneConditioning_8749389174041\n- Floor 3 Treatment_ZoneConditioning\n- Combined_ZoneConditioning_8749389174153\n- Floor 3 Dressing Room_ZoneConditioning\n- Combined_ZoneConditioning_8749389555779\n- Floor 1 Soil Work_ZoneConditioning\n- Floor 2 Scheduling 1_ZoneConditioning\n- Combined_ZoneConditioning_8749389555849\n- Combined_ZoneConditioning_8749389553601\n- Floor 2 Dictation_ZoneConditioning\n- Floor 1 Bio Haz_ZoneConditioning\n- Combined_ZoneConditioning_8749389554839\n- Combined_ZoneConditioning_8749389174097\n- Floor 3 Physical Therapy 2_ZoneConditioning\n- Floor 1 Pre-Op Hall_ZoneConditioning\n- Combined_ZoneConditioning_8749389553489\n- Combined_ZoneConditioning_8749389552465\n- Floor 3 Humid_ZoneConditioning\n- Floor 1 Operating Room 3_ZoneConditioning\n- Combined_ZoneConditioning_8749389555919\n- Floor 1 Scrub_ZoneConditioning\n- Floor 2 Lounge_ZoneConditioning",
+            "DataSource": null,
+            "Name": "Combined_ZoneConditioning_8749389174265 - Saglik Merkezi"
+        },
+        {
+            "$id": "140412464192544",
+            "CoolingSchedule": {
+                "$ref": "5000"
+            },
+            "CoolingCoeffOfPerf": 3.86,
+            "CoolingSetpoint": 25.5,
+            "CoolingLimitType": 0,
+            "CoolingFuelType": 1,
+            "EconomizerType": 0,
+            "HeatingCoeffOfPerf": 0.877,
+            "HeatingLimitType": 0,
+            "HeatingFuelType": 2,
+            "HeatingSchedule": {
+                "$ref": "312"
+            },
+            "HeatingSetpoint": 20.0,
+            "HeatRecoveryEfficiencyLatent": 0.65,
+            "HeatRecoveryEfficiencySensible": 0.7,
+            "HeatRecoveryType": 0,
+            "IsCoolingOn": false,
+            "IsHeatingOn": true,
+            "IsMechVentOn": false,
+            "MaxCoolFlow": 100.0,
+            "MaxCoolingCapacity": 100.0,
+            "MaxHeatFlow": 100.0,
+            "MaxHeatingCapacity": 100.0,
+            "MechVentSchedule": {
+                "$ref": "300"
+            },
+            "MinFreshAirPerArea": 0.0,
+            "MinFreshAirPerPerson": 0.0,
+            "Category": "",
+            "Comments": "Object composed of a combination of these objects:\nT NE Apartment_ZoneConditioning\n- Combined_ZoneConditioning_8775500182325\n- Combined_ZoneConditioning_8775524538912\n- T Corridor_ZoneConditioning\n- T SW Apartment_ZoneConditioning\n- Combined_ZoneConditioning_8775524538975\n- M S2 Apartment_ZoneConditioning\n- Combined_ZoneConditioning_8775500171303\n- Combined_ZoneConditioning_8775524545340\n- T N2 Apartment_ZoneConditioning\n- Combined_ZoneConditioning_8775500171499\n- M NW Apartment_ZoneConditioning\n- Combined_ZoneConditioning_8775500171436\n- Combined_ZoneConditioning_8775524545445\n- Office_ZoneConditioning\n- M SE Apartment_ZoneConditioning\n- T NW Apartment_ZoneConditioning\n- Combined_ZoneConditioning_8775524545410\n- Combined_ZoneConditioning_8775524539094\n- M S1 Apartment_ZoneConditioning\n- G N1 Apartment_ZoneConditioning\n- Combined_ZoneConditioning_8775500171422\n- Combined_ZoneConditioning_8775500182311\n- G S2 Apartment_ZoneConditioning\n- M NE Apartment_ZoneConditioning\n- Combined_ZoneConditioning_8775524539087\n- Combined_ZoneConditioning_8775524547826\n- T N1 Apartment_ZoneConditioning\n- T SE Apartment_ZoneConditioning\n- Combined_ZoneConditioning_8775524547749\n- M N1 Apartment_ZoneConditioning\n- T S2 Apartment_ZoneConditioning\n- T S1 Apartment_ZoneConditioning\n- G NE Apartment_ZoneConditioning\n- M Corridor_ZoneConditioning\n- Combined_ZoneConditioning_8775524545319\n- M N2 Apartment_ZoneConditioning\n- M SW Apartment_ZoneConditioning\n- Combined_ZoneConditioning_8775500171380\n- Combined_ZoneConditioning_8775524545494\n- Combined_ZoneConditioning_8775500171366\n- G N2 Apartment_ZoneConditioning\n- Combined_ZoneConditioning_8775500182500\n- G Corridor_ZoneConditioning\n- Combined_ZoneConditioning_8775500171471\n- Combined_ZoneConditioning_8775524547812\n- G S1 Apartment_ZoneConditioning\n- G SW Apartment_ZoneConditioning\n- Combined_ZoneConditioning_8775500182332\n- Combined_ZoneConditioning_8775524547777",
+            "DataSource": null,
+            "Name": "Combined_ZoneConditioning_8775524545284 - Huzurevi"
+        },
+        {
+            "$id": "140412459172816",
+            "CoolingSchedule": {
+                "$ref": "5000"
+            },
+            "CoolingCoeffOfPerf": 2.38,
+            "CoolingSetpoint": 24.1,
+            "CoolingLimitType": 0,
+            "CoolingFuelType": 1,
+            "EconomizerType": 0,
+            "HeatingCoeffOfPerf": 0.877,
+            "HeatingLimitType": 0,
+            "HeatingFuelType": 2,
+            "HeatingSchedule": {
+                "$ref": "313"
+            },
+            "HeatingSetpoint": 20.0,
+            "HeatRecoveryEfficiencyLatent": 0.65,
+            "HeatRecoveryEfficiencySensible": 0.7,
+            "HeatRecoveryType": 0,
+            "IsCoolingOn": false,
+            "IsHeatingOn": true,
+            "IsMechVentOn": false,
+            "MaxCoolFlow": 100.0,
+            "MaxCoolingCapacity": 100.0,
+            "MaxHeatFlow": 100.0,
+            "MaxHeatingCapacity": 100.0,
+            "MechVentSchedule": {
+                "$ref": "300"
+            },
+            "MinFreshAirPerArea": 0.0,
+            "MinFreshAirPerPerson": 0.0,
+            "Category": "",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Core_ZN_ZoneConditioning - Sosyal Bina"
+        },
+        {
+            "$id": "140412431850224",
+            "CoolingSchedule": {
+                "$ref": "314"
+            },
+            "CoolingCoeffOfPerf": 4.11,
+            "CoolingSetpoint": 24.1,
+            "CoolingLimitType": 0,
+            "CoolingFuelType": 1,
+            "EconomizerType": 1,
+            "HeatingCoeffOfPerf": 0.877,
+            "HeatingLimitType": 0,
+            "HeatingFuelType": 2,
+            "HeatingSchedule": {
+                "$ref": "313"
+            },
+            "HeatingSetpoint": 20.0,
+            "HeatRecoveryEfficiencyLatent": 0.65,
+            "HeatRecoveryEfficiencySensible": 0.7,
+            "HeatRecoveryType": 0,
+            "IsCoolingOn": true,
+            "IsHeatingOn": true,
+            "IsMechVentOn": false,
+            "MaxCoolFlow": 100.0,
+            "MaxCoolingCapacity": 100.0,
+            "MaxHeatFlow": 100.0,
+            "MaxHeatingCapacity": 100.0,
+            "MechVentSchedule": {
+                "$ref": "300"
+            },
+            "MinFreshAirPerArea": 0.0,
+            "MinFreshAirPerPerson": 0.0,
+            "Category": "",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Core_bottom_ZoneConditioning_3 - Ofis"
+        },
+        {
+            "$id": "140412457495888",
+            "CoolingSchedule": {
+                "$ref": "5000"
+            },
+            "CoolingCoeffOfPerf": 3.11,
+            "CoolingSetpoint": 24.1,
+            "CoolingLimitType": 0,
+            "CoolingFuelType": 1,
+            "EconomizerType": 0,
+            "HeatingCoeffOfPerf": 0.877,
+            "HeatingLimitType": 0,
+            "HeatingFuelType": 2,
+            "HeatingSchedule": {
+                "$ref": "315"
+            },
+            "HeatingSetpoint": 20.0,
+            "HeatRecoveryEfficiencyLatent": 0.65,
+            "HeatRecoveryEfficiencySensible": 0.7,
+            "HeatRecoveryType": 0,
+            "IsCoolingOn": false,
+            "IsHeatingOn": true,
+            "IsMechVentOn": true,
+            "MaxCoolFlow": 100.0,
+            "MaxCoolingCapacity": 100.0,
+            "MaxHeatFlow": 100.0,
+            "MaxHeatingCapacity": 100.0,
+            "MechVentSchedule": {
+                "$ref": "308"
+            },
+            "MinFreshAirPerArea": 0.0,
+            "MinFreshAirPerPerson": 0.0,
+            "Category": "",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "LGstore1_ZoneConditioning - Spor Merkezi"
+        }
+    ],
+    "ZoneConstructionSets": [
+        {
+            "$id": "140412463733248",
+            "Facade": {
+                "$ref": "140412777751392"
+            },
+            "Ground": {
+                "$ref": "140412783297216"
+            },
+            "Partition": {
+                "$ref": "140412783299136"
+            },
+            "Roof": {
+                "$ref": "140412783299296"
+            },
+            "Slab": {
+                "$ref": "140412777753472"
+            },
+            "IsFacadeAdiabatic": false,
+            "IsGroundAdiabatic": false,
+            "IsPartitionAdiabatic": true,
+            "IsRoofAdiabatic": false,
+            "IsSlabAdiabatic": true,
+            "Category": "",
+            "Comments": "Object composed of a combination of these objects:\nCombined_ZoneConstructionSet_8775500171485\n- M N1 Apartment_ZoneConstructionSet\n- M SE Apartment_ZoneConstructionSet\n- M SW Apartment_ZoneConstructionSet\n- Combined_ZoneConstructionSet_8775524547644\n- M N2 Apartment_ZoneConstructionSet\n- Combined_ZoneConstructionSet_8775500171317\n- T SW Apartment_ZoneConstructionSet\n- M S1 Apartment_ZoneConstructionSet\n- Combined_ZoneConstructionSet_8775524547791\n- Combined_ZoneConstructionSet_8775500171478\n- Combined_ZoneConstructionSet_8775524547770\n- M S2 Apartment_ZoneConstructionSet\n- G SW Apartment_ZoneConstructionSet\n- M NE Apartment_ZoneConstructionSet\n- Combined_ZoneConstructionSet_8775500171443\n- M NW Apartment_ZoneConstructionSet\n- Combined_ZoneConstructionSet_8775524547623",
+            "DataSource": null,
+            "Name": "Huzurevi"
+        },
+        {
+            "$id": "140412779963008",
+            "Facade": {
+                "$ref": "140412783298016"
+            },
+            "Ground": {
+                "$ref": "140412783297216"
+            },
+            "Partition": {
+                "$ref": "140412783299136"
+            },
+            "Roof": {
+                "$ref": "140412777579520"
+            },
+            "Slab": {
+                "$ref": "140412783299776"
+            },
+            "IsFacadeAdiabatic": false,
+            "IsGroundAdiabatic": false,
+            "IsPartitionAdiabatic": true,
+            "IsRoofAdiabatic": false,
+            "IsSlabAdiabatic": true,
+            "Category": "",
+            "Comments": "Object composed of a combination of these objects:\nCore_top_ZoneConstructionSet\n- Core_mid_ZoneConstructionSet\n- Core_bottom_ZoneConstructionSet\n- Combined_ZoneConstructionSet_8773338097247",
+            "DataSource": null,
+            "Name": "Ofis"
+        },
+        {
+            "$id": "140412458350720",
+            "Facade": {
+                "$ref": "140412777627712"
+            },
+            "Ground": {
+                "$ref": "140412783297216"
+            },
+            "Partition": {
+                "$ref": "140412783299136"
+            },
+            "Roof": {
+                "$ref": "140412783299296"
+            },
+            "Slab": {
+                "$ref": "140412777580800"
+            },
+            "IsFacadeAdiabatic": false,
+            "IsGroundAdiabatic": false,
+            "IsPartitionAdiabatic": true,
+            "IsRoofAdiabatic": false,
+            "IsSlabAdiabatic": true,
+            "Category": "",
+            "Comments": "Object composed of a combination of these objects:\nPerimeter_ZN_3_ZoneConstructionSet\n- Combined_ZoneConstructionSet_8791155217829\n- Combined_ZoneConstructionSet_8791094575904\n- Combined_ZoneConstructionSet_8791155217717\n- Perimeter_ZN_2_ZoneConstructionSet\n- Attic_ZoneConstructionSet\n- Core_ZN_ZoneConstructionSet\n- Perimeter_ZN_1_ZoneConstructionSet\n- Perimeter_ZN_4_ZoneConstructionSet",
+            "DataSource": null,
+            "Name": "Otel"
+        },
+        {
+            "$id": "140412462818688",
+            "Facade": {
+                "$ref": "140412783298018"
+            },
+            "Ground": {
+                "$ref": "140412783297216"
+            },
+            "Partition": {
+                "$ref": "140412783299136"
+            },
+            "Roof": {
+                "$ref": "140412783299296"
+            },
+            "Slab": {
+                "$ref": "140412777753472"
+            },
+            "IsFacadeAdiabatic": false,
+            "IsGroundAdiabatic": false,
+            "IsPartitionAdiabatic": true,
+            "IsRoofAdiabatic": false,
+            "IsSlabAdiabatic": true,
+            "Category": "",
+            "Comments": "Object composed of a combination of these objects:\nFloor 2 Storage 1_ZoneConstructionSet\n- Combined_ZoneConstructionSet_8749389554909\n- Combined_ZoneConstructionSet_8749389556417\n- Combined_ZoneConstructionSet_8749389556382\n- Floor 2 Dictation_ZoneConstructionSet\n- Combined_ZoneConstructionSet_8749389556438\n- Combined_ZoneConstructionSet_8749389555877\n- Floor 2 Lounge_ZoneConstructionSet\n- Floor 1 Bio Haz_ZoneConstructionSet\n- Combined_ZoneConstructionSet_8749389555737\n- Combined_ZoneConstructionSet_8749389555947\n- Combined_ZoneConstructionSet_8749389556277\n- Combined_ZoneConstructionSet_8749389556410\n- Combined_ZoneConstructionSet_8749389556347\n- Floor 2 Conference Toilet_ZoneConstructionSet\n- Floor 2 Nurse Station 1_ZoneConstructionSet\n- Floor 2 Office Hall_ZoneConstructionSet\n- Floor 2 Storage 2_ZoneConstructionSet\n- Combined_ZoneConstructionSet_8749389556305\n- Floor 2 Scheduling 2_ZoneConstructionSet\n- Floor 2 Nurse Station 2_ZoneConstructionSet\n- Combined_ZoneConstructionSet_8749389556403\n- Floor 2 X-Ray_ZoneConstructionSet\n- Floor 2 Storage 3_ZoneConstructionSet\n- Floor 3 Dressing Room_ZoneConstructionSet\n- Floor 2 Reception Toilet_ZoneConstructionSet\n- Floor 2 Scheduling 1_ZoneConstructionSet\n- Combined_ZoneConstructionSet_8749389555807",
+            "DataSource": null,
+            "Name": "Saglik Merkezi"
+        },
+        {
+            "$id": "140412458350336",
+            "Facade": {
+                "$ref": "140412777579680"
+            },
+            "Ground": {
+                "$ref": "140412783297216"
+            },
+            "Partition": {
+                "$ref": "140412783299136"
+            },
+            "Roof": {
+                "$ref": "140412783299296"
+            },
+            "Slab": {
+                "$ref": "140412777580800"
+            },
+            "IsFacadeAdiabatic": false,
+            "IsGroundAdiabatic": false,
+            "IsPartitionAdiabatic": true,
+            "IsRoofAdiabatic": false,
+            "IsSlabAdiabatic": true,
+            "Category": "",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Sosyal Bina"
+        },
+        {
+            "$id": "140412457497216",
+            "Facade": {
+                "$ref": "140412783298017"
+            },
+            "Ground": {
+                "$ref": "140412783297216"
+            },
+            "Partition": {
+                "$ref": "140412783299136"
+            },
+            "Roof": {
+                "$ref": "140412783299296"
+            },
+            "Slab": {
+                "$ref": "140412776933792"
+            },
+            "IsFacadeAdiabatic": false,
+            "IsGroundAdiabatic": false,
+            "IsPartitionAdiabatic": true,
+            "IsRoofAdiabatic": false,
+            "IsSlabAdiabatic": true,
+            "Category": "",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Spor Merkezi"
+        }
+    ],
+    "ZoneLoads": [
+        {
+            "$id": "140412459640512",
+            "DimmingType": 1,
+            "EquipmentAvailabilitySchedule": {
+                "$ref": "301"
+            },
+            "EquipmentPowerDensity": 4.0,
+            "IlluminanceTarget": 200.0,
+            "LightingPowerDensity": 10.0,
+            "LightsAvailabilitySchedule": {
+                "$ref": "302"
+            },
+            "OccupancySchedule": {
+                "$ref": "303"
+            },
+            "IsEquipmentOn": true,
+            "IsLightingOn": true,
+            "IsPeopleOn": true,
+            "PeopleDensity": 0.054,
+            "Category": "",
+            "Comments": "Object composed of a combination of these objects:\nGuestRoom314_ZoneLoad\n- ElevatorCoreFlr3_ZoneLoad\n- CorridorFlr3_ZoneLoad\n- GuestRoom409_412_ZoneLoad\n- Combined_ZoneLoad_8734503289765\n- GuestRoom320_323_ZoneLoad\n- MeetingRoomFlr1_ZoneLoad\n- GuestRoom209_212_ZoneLoad\n- RearStorageFlr4_ZoneLoad\n- Combined_ZoneLoad_8734503219386\n- RearStairsFlr3_ZoneLoad\n- RearStorageFlr1_ZoneLoad\n- FrontOfficeFlr1_ZoneLoad\n- GuestRoom319_ZoneLoad\n- GuestRoom103_ZoneLoad\n- Combined_ZoneLoad_8734503293237\n- GuestRoom415_418_ZoneLoad\n- Combined_ZoneLoad_8734503289793\n- GuestRoom301_ZoneLoad\n- GuestRoom313_ZoneLoad\n- FrontStorageFlr1_ZoneLoad\n- Combined_ZoneLoad_8734503219351\n- Combined_ZoneLoad_8734503229896\n- GuestRoom201_ZoneLoad\n- Combined_ZoneLoad_8734502287150\n- GuestRoom420_423_ZoneLoad\n- RearStorageFlr2_ZoneLoad\n- CorridorFlr4_ZoneLoad\n- Combined_ZoneLoad_8734502284246\n- Combined_ZoneLoad_8734503293251\n- GuestRoom202_205_ZoneLoad\n- Combined_ZoneLoad_8734503289709\n- GuestRoom309_312_ZoneLoad\n- Combined_ZoneLoad_8734502287178\n- GuestRoom101_ZoneLoad\n- ElevatorCoreFlr2_ZoneLoad\n- Combined_ZoneLoad_8734502284134\n- Combined_ZoneLoad_8734503231688\n- Combined_ZoneLoad_8734503289821\n- GuestRoom214_ZoneLoad\n- GuestRoom220_223_ZoneLoad\n- Combined_ZoneLoad_8734502285586\n- Combined_ZoneLoad_8734503219274\n- Combined_ZoneLoad_8734503219407\n- Combined_ZoneLoad_8734503231730\n- GuestRoom402_405_ZoneLoad\n- CorridorFlr2_ZoneLoad\n- GuestRoom414_ZoneLoad\n- GuestRoom206_208_ZoneLoad\n- RearStairsFlr2_ZoneLoad\n- Combined_ZoneLoad_8734503293272\n- Combined_ZoneLoad_8734503229756\n- Combined_ZoneLoad_8734502285754\n- GuestRoom213_ZoneLoad\n- GuestRoom302_305_ZoneLoad\n- ElevatorCoreFlr4_ZoneLoad\n- GuestRoom224_ZoneLoad\n- FrontStorageFlr4_ZoneLoad\n- Combined_ZoneLoad_8734503229707\n- GuestRoom401_ZoneLoad\n- Combined_ZoneLoad_8734503289618\n- GuestRoom315_318_ZoneLoad\n- FrontStorageFlr2_ZoneLoad\n- RearStorageFlr3_ZoneLoad\n- Combined_ZoneLoad_8734502287234\n- Combined_ZoneLoad_8734502284190\n- Combined_ZoneLoad_8734503289681\n- Combined_ZoneLoad_8734503229826\n- ElevatorCoreFlr1_ZoneLoad\n- FrontStairsFlr4_ZoneLoad\n- GuestRoom215_218_ZoneLoad\n- GuestRoom105_ZoneLoad\n- Combined_ZoneLoad_8734506903044\n- GuestRoom419_ZoneLoad\n- FrontStairsFlr3_ZoneLoad\n- Combined_ZoneLoad_8734503293279\n- Combined_ZoneLoad_8734503229938\n- GuestRoom324_ZoneLoad\n- Combined_ZoneLoad_8734503229714\n- MechanicalRoomFlr1_ZoneLoad\n- Combined_ZoneLoad_8734502285810\n- GuestRoom306_308_ZoneLoad\n- EmployeeLoungeFlr1_ZoneLoad\n- Combined_ZoneLoad_8734503229924\n- Combined_ZoneLoad_8734503219288\n- FrontStairsFlr2_ZoneLoad\n- Combined_ZoneLoad_8734503293230\n- RearStairsFlr4_ZoneLoad\n- Combined_ZoneLoad_8734503293209\n- Combined_ZoneLoad_8734503293202\n- Combined_ZoneLoad_8734503229735\n- Combined_ZoneLoad_8734502287262\n- GuestRoom104_ZoneLoad\n- Combined_ZoneLoad_8734502287290\n- Combined_ZoneLoad_8734502285698\n- GuestRoom219_ZoneLoad\n- Combined_ZoneLoad_8734503219358\n- Combined_ZoneLoad_8734503219428\n- Combined_ZoneLoad_8734503289737\n- Combined_ZoneLoad_8734503293265\n- CorridorFlr1_ZoneLoad\n- GuestRoom102_ZoneLoad\n- FrontStairsFlr1_ZoneLoad\n- Combined_ZoneLoad_8734503289653\n- Combined_ZoneLoad_8734502285642\n- Combined_ZoneLoad_8734503229798\n- Combined_ZoneLoad_8734503231562\n- Combined_ZoneLoad_8734503289849\n- Combined_ZoneLoad_8734502287206\n- Combined_ZoneLoad_8734502287346\n- RearStairsFlr1_ZoneLoad\n- Combined_ZoneLoad_8734502284078\n- RestroomFlr1_ZoneLoad\n- GuestRoom413_ZoneLoad\n- Combined_ZoneLoad_8734503293244\n- Combined_ZoneLoad_8734503231702\n- FrontLoungeFlr1_ZoneLoad\n- Combined_ZoneLoad_8734503231632\n- Combined_ZoneLoad_8734503229700\n- FrontStorageFlr3_ZoneLoad\n- Combined_ZoneLoad_8734502287318\n- Combined_ZoneLoad_8734503293258\n- GuestRoom424_ZoneLoad\n- Combined_ZoneLoad_8734503219435\n- GuestRoom406_408_ZoneLoad\n- LaundryRoomFlr1_ZoneLoad\n- ExerciseCenterFlr1_ZoneLoad\n- Combined_ZoneLoad_8734503219400",
+            "DataSource": null,
+            "Name": "Combined_ZoneLoad_8734503293286 - Otel"
+        },
+        {
+            "$id": "140412455579920",
+            "DimmingType": 1,
+            "EquipmentAvailabilitySchedule": {
+                "$ref": "308"
+            },
+            "EquipmentPowerDensity": 4.0,
+            "IlluminanceTarget": 300.0,
+            "LightingPowerDensity": 10.0,
+            "LightsAvailabilitySchedule": {
+                "$ref": "308"
+            },
+            "OccupancySchedule": {
+                "$ref": "308"
+            },
+            "IsEquipmentOn": true,
+            "IsLightingOn": true,
+            "IsPeopleOn": true,
+            "PeopleDensity": 0.04,
+            "Category": "",
+            "Comments": "Object composed of a combination of these objects:\nCombined_ZoneLoad_8738053401860\n- SMstore7_ZoneLoad\n- SMstore2_ZoneLoad\n- LGstore2_ZoneLoad\n- SMstore4_ZoneLoad\n- Combined_ZoneLoad_8738053412356\n- SMstore1_ZoneLoad\n- Combined_ZoneLoad_8738053412447\n- SMstore3_ZoneLoad\n- Combined_ZoneLoad_8738053412587\n- Combined_ZoneLoad_8738053412552\n- Combined_ZoneLoad_8738053412433\n- SMstore8_ZoneLoad\n- SMstore6_ZoneLoad\n- SMstore5_ZoneLoad\n- Combined_ZoneLoad_8738053412580\n- Combined_ZoneLoad_8738053412531\n- LGstore1_ZoneLoad",
+            "DataSource": null,
+            "Name": "Combined_ZoneLoad_8738053412524 - Spor Merkezi"
+        },
+        {
+            "$id": "140412461499056",
+            "DimmingType": 1,
+            "EquipmentAvailabilitySchedule": {
+                "$ref": "309"
+            },
+            "EquipmentPowerDensity": 30.0,
+            "IlluminanceTarget": 500.0,
+            "LightingPowerDensity": 10.0,
+            "LightsAvailabilitySchedule": {
+                "$ref": "310"
+            },
+            "OccupancySchedule": {
+                "$ref": "311"
+            },
+            "IsEquipmentOn": true,
+            "IsLightingOn": true,
+            "IsPeopleOn": true,
+            "PeopleDensity": 0.1,
+            "Category": "",
+            "Comments": "Object composed of a combination of these objects:\nCombined_ZoneLoad_8749389553517\n- Combined_ZoneLoad_8749389549891\n- Floor 3 Locker_ZoneLoad\n- Floor 1 Utility Janitor_ZoneLoad\n- Floor 2 Dictation_ZoneLoad\n- Floor 1 IT Room_ZoneLoad\n- Combined_ZoneLoad_8749389554727\n- Floor 1 Nurse Station_ZoneLoad\n- Combined_ZoneLoad_8749389554867\n- Floor 1 Pre-Op Hall_ZoneLoad\n- Floor 1 Operating Room 3_ZoneLoad\n- Combined_ZoneLoad_8749389550557\n- Combined_ZoneLoad_8749389174181\n- Combined_ZoneLoad_8749389552605\n- Combined_ZoneLoad_8749202614672\n- Combined_ZoneLoad_8749389174258\n- Combined_ZoneLoad_8749389556445\n- Floor 1 Nurse Toilet_ZoneLoad\n- Combined_ZoneLoad_8749389553447\n- Floor 2 Nurse Station 1_ZoneLoad\n- Floor 1 Pre-Op Room 2_ZoneLoad\n- Floor 1 Lounge_ZoneLoad\n- Combined_ZoneLoad_8749389556347\n- Combined_ZoneLoad_8749389174118\n- Floor 1 Clean_ZoneLoad\n- Combined_ZoneLoad_8749389175563\n- Floor 1 Humid_ZoneLoad\n- Floor 2 Storage 1_ZoneLoad\n- Combined_ZoneLoad_8749389551655\n- Combined_ZoneLoad_8749389551739\n- Floor 2 Lounge_ZoneLoad\n- Floor 1 PACU_ZoneLoad\n- Floor 2 Scheduling 1_ZoneLoad\n- Combined_ZoneLoad_8749389552395\n- Floor 3 Physical Therapy 2_ZoneLoad\n- Combined_ZoneLoad_8749389550347\n- Floor 1 Office_ZoneLoad\n- Combined_ZoneLoad_8749389556305\n- Floor 2 Scheduling 2_ZoneLoad\n- Floor 2 X-Ray_ZoneLoad\n- Floor 1 Scrub_ZoneLoad\n- Combined_ZoneLoad_8749389550431\n- Floor 2 Storage 3_ZoneLoad\n- Combined_ZoneLoad_8749389550543\n- Combined_ZoneLoad_8749389174020\n- Combined_ZoneLoad_8749389174055\n- Combined_ZoneLoad_8749389550361\n- Floor 1 Clean Work_ZoneLoad\n- Floor 1 Nourishment_ZoneLoad\n- Floor 1 MRI Room_ZoneLoad\n- Floor 3 Physical Therapy Toilet_ZoneLoad\n- Combined_ZoneLoad_8749389174251\n- Combined_ZoneLoad_8749389553573\n- Floor 1 Bio Haz_ZoneLoad\n- Combined_ZoneLoad_8749389554797\n- Combined_ZoneLoad_8749389552577\n- Combined_ZoneLoad_8749389555807\n- Combined_ZoneLoad_8749389554895\n- Combined_ZoneLoad_8749389556410\n- Combined_ZoneLoad_8749389556403\n- Combined_ZoneLoad_8749389555737\n- Combined_ZoneLoad_8749389551641\n- Floor 2 Reception Toilet_ZoneLoad\n- Combined_ZoneLoad_8749389556382\n- Floor 1 IT Hall_ZoneLoad\n- Floor 2 Nurse Station 2_ZoneLoad\n- Floor 3 Storage 2_ZoneLoad\n- Combined_ZoneLoad_8749389555947\n- Combined_ZoneLoad_8749389550059\n- Floor 1 MRI Hall_ZoneLoad\n- Floor 1 Nurse Hall_ZoneLoad\n- Floor 3 Dressing Room_ZoneLoad\n- Floor 3 Treatment_ZoneLoad\n- Floor 3 Utility_ZoneLoad\n- Combined_ZoneLoad_8749389555877\n- Floor 3 Humid_ZoneLoad\n- Floor 1 Nurse Janitor_ZoneLoad\n- Floor 1 Soil_ZoneLoad\n- Floor 2 Conference Toilet_ZoneLoad\n- Floor 3 Storage 1_ZoneLoad\n- Combined_ZoneLoad_8749389551809\n- Floor 1 Lobby Hall_ZoneLoad\n- Floor 1 Sterile Storage_ZoneLoad\n- Combined_ZoneLoad_8749389553629\n- Floor 3 Mechanical Hall_ZoneLoad\n- Floor 1 Reception Hall_ZoneLoad\n- Floor 2 Storage 2_ZoneLoad\n- Floor 1 Soil Work_ZoneLoad\n- Combined_ZoneLoad_8749389554909\n- Combined_ZoneLoad_8749389550501\n- Combined_ZoneLoad_8749389174237\n- Combined_ZoneLoad_8749389556417\n- Combined_ZoneLoad_8749389556277\n- Combined_ZoneLoad_8749389550529\n- Floor 2 Office Hall_ZoneLoad\n- Combined_ZoneLoad_8749389551851\n- Floor 1 Soil Hold_ZoneLoad\n- Floor 1 Locker Room Hall_ZoneLoad\n- Floor 1 Dictation_ZoneLoad\n- Combined_ZoneLoad_8749389551767\n- Combined_ZoneLoad_8749389551823\n- Combined_ZoneLoad_8749389174216",
+            "DataSource": null,
+            "Name": "Combined_ZoneLoad_8749389175584 - Saglik Merkezi"
+        },
+        {
+            "$id": "140412464317520",
+            "DimmingType": 1,
+            "EquipmentAvailabilitySchedule": {
+                "$ref": "305"
+            },
+            "EquipmentPowerDensity": 8.0,
+            "IlluminanceTarget": 500.0,
+            "LightingPowerDensity": 10.0,
+            "LightsAvailabilitySchedule": {
+                "$ref": "306"
+            },
+            "OccupancySchedule": {
+                "$ref": "306"
+            },
+            "IsEquipmentOn": true,
+            "IsLightingOn": true,
+            "IsPeopleOn": true,
+            "PeopleDensity": 0.0538,
+            "Category": "",
+            "Comments": "Object composed of a combination of these objects:\nCore_bottom_ZoneLoad\n- Core_top_ZoneLoad\n- Combined_ZoneLoad_8773338097247\n- Core_mid_ZoneLoad",
+            "DataSource": null,
+            "Name": "Combined_ZoneLoad_8773338065254 - Ofis"
+        },
+        {
+            "$id": "140412463086704",
+            "DimmingType": 1,
+            "EquipmentAvailabilitySchedule": {
+                "$ref": "301"
+            },
+            "EquipmentPowerDensity": 12.0,
+            "IlluminanceTarget": 200.0,
+            "LightingPowerDensity": 10.0,
+            "LightsAvailabilitySchedule": {
+                "$ref": "302"
+            },
+            "OccupancySchedule": {
+                "$ref": "303"
+            },
+            "IsEquipmentOn": true,
+            "IsLightingOn": true,
+            "IsPeopleOn": true,
+            "PeopleDensity": 0.049,
+            "Category": "",
+            "Comments": "Object composed of a combination of these objects:\nCombined_ZoneLoad_8775500171317\n- M NE Apartment_ZoneLoad\n- Combined_ZoneLoad_8775500182430\n- Combined_ZoneLoad_8775524538891\n- Combined_ZoneLoad_8775500171478\n- Combined_ZoneLoad_8775524547770\n- Combined_ZoneLoad_8775524547623\n- G N1 Apartment_ZoneLoad\n- Combined_ZoneLoad_8775500171485\n- M S1 Apartment_ZoneLoad\n- Combined_ZoneLoad_8775524545382\n- Combined_ZoneLoad_8775524516226\n- Office_ZoneLoad\n- Combined_ZoneLoad_8775500171345\n- Combined_ZoneLoad_8775500182472\n- Combined_ZoneLoad_8775524545522\n- M SW Apartment_ZoneLoad\n- Combined_ZoneLoad_8775500171338\n- G SW Apartment_ZoneLoad\n- T S1 Apartment_ZoneLoad\n- M SE Apartment_ZoneLoad\n- Combined_ZoneLoad_8775524545431\n- M N1 Apartment_ZoneLoad\n- T S2 Apartment_ZoneLoad\n- Combined_ZoneLoad_8775524539129\n- T SW Apartment_ZoneLoad\n- Combined_ZoneLoad_8775524547644\n- G S2 Apartment_ZoneLoad\n- G S1 Apartment_ZoneLoad\n- M N2 Apartment_ZoneLoad\n- T NE Apartment_ZoneLoad\n- M NW Apartment_ZoneLoad\n- G N2 Apartment_ZoneLoad\n- Combined_ZoneLoad_8775500171443\n- Combined_ZoneLoad_8775524538989\n- T NW Apartment_ZoneLoad\n- T N1 Apartment_ZoneLoad\n- Combined_ZoneLoad_8775524545312\n- T Corridor_ZoneLoad\n- Combined_ZoneLoad_8775500182486\n- Combined_ZoneLoad_8775524547791\n- Combined_ZoneLoad_8775524545466\n- Combined_ZoneLoad_8775500171401\n- T N2 Apartment_ZoneLoad\n- M S2 Apartment_ZoneLoad\n- Combined_ZoneLoad_8775524539045\n- Combined_ZoneLoad_8775524545326\n- M Corridor_ZoneLoad\n- G NE Apartment_ZoneLoad\n- G NW Apartment_ZoneLoad\n- T SE Apartment_ZoneLoad\n- G Corridor_ZoneLoad",
+            "DataSource": null,
+            "Name": "Combined_ZoneLoad_8775500185695 - Huzurevi"
+        },
+        {
+            "$id": "140412457798144",
+            "DimmingType": 1,
+            "EquipmentAvailabilitySchedule": {
+                "$ref": "305"
+            },
+            "EquipmentPowerDensity": 10.0,
+            "IlluminanceTarget": 300.0,
+            "LightingPowerDensity": 10.0,
+            "LightsAvailabilitySchedule": {
+                "$ref": "306"
+            },
+            "OccupancySchedule": {
+                "$ref": "306"
+            },
+            "IsEquipmentOn": true,
+            "IsLightingOn": true,
+            "IsPeopleOn": true,
+            "PeopleDensity": 0.0538,
+            "Category": "",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Core_ZN_ZoneLoad - Sosyal Bina"
+        }
+    ],
+    "Zones": [
+        {
+            "$id": "140412458196560",
+            "Conditioning": {
+                "$ref": "140412459172816"
+            },
+            "Constructions": {
+                "$ref": "140412458350336"
+            },
+            "DaylightMeshResolution": 1.0,
+            "DaylightWorkplaneHeight": 0.8,
+            "DomesticHotWater": {
+                "$ref": "140412777748800"
+            },
+            "InternalMassConstruction": {
+                "$ref": "140412783300416"
+            },
+            "InternalMassExposedPerFloorArea": 299.0,
+            "Loads": {
+                "$ref": "140412457798144"
+            },
+            "Ventilation": {
+                "$ref": "140412458196320"
+            },
+            "Category": "RefBldgSmallOfficeNew2004_v1.4_7.2_8A_USA_AK_FAIRBANKS.idf",
+            "Comments": null,
+            "DataSource": null,
+            "Name": "Core_ZN - Sosyal Bina"
+        },
+        {
+            "$id": "140412429247968",
+            "Conditioning": {
+                "$ref": "140412431850224"
+            },
+            "Constructions": {
+                "$ref": "140412779963008"
+            },
+            "DaylightMeshResolution": 1.0,
+            "DaylightWorkplaneHeight": 0.8,
+            "DomesticHotWater": {
+                "$ref": "140412404241312"
+            },
+            "InternalMassConstruction": {
+                "$ref": "140412783300416"
+            },
+            "InternalMassExposedPerFloorArea": 1970.0,
+            "Loads": {
+                "$ref": "140412464317520"
+            },
+            "Ventilation": {
+                "$ref": "140412429248208"
+            },
+            "Category": "RefBldgMediumOfficeNew2004_v1.4_7.2_4A_USA_MD_BALTIMORE.idf",
+            "Comments": "Object composed of a combination of these objects:\nCore_bottom\n- Core_mid\n- Combined_ZoneDefinition_8773338097247\n- Core_top",
+            "DataSource": null,
+            "Name": "RefBldgMediumOfficeNew2004_v1.4_7.2_4A_USA_MD_BALTIMORE_ZoneDefinition_Core - Ofis"
+        },
+        {
+            "$id": "140412462831552",
+            "Conditioning": {
+                "$ref": "140412464192544"
+            },
+            "Constructions": {
+                "$ref": "140412463733248"
+            },
+            "DaylightMeshResolution": 1.0,
+            "DaylightWorkplaneHeight": 0.8,
+            "DomesticHotWater": {
+                "$ref": "140412780305424"
+            },
+            "InternalMassConstruction": {
+                "$ref": "140412783300416"
+            },
+            "InternalMassExposedPerFloorArea": 174.0,
+            "Loads": {
+                "$ref": "140412463086704"
+            },
+            "Ventilation": {
+                "$ref": "140412462831312"
+            },
+            "Category": "RefBldgMidriseApartmentNew2004_v1.4_7.2_4A_USA_MD_BALTIMORE.idf",
+            "Comments": "Object composed of a combination of these objects:\nCombined_ZoneDefinition_8775500182500\n- Combined_ZoneDefinition_8775524545340\n- Combined_ZoneDefinition_8775500171436\n- Combined_ZoneDefinition_8775524539094\n- Combined_ZoneDefinition_8775500182332\n- Combined_ZoneDefinition_8775524547777\n- M NE Apartment\n- M N2 Apartment\n- Combined_ZoneDefinition_8775524516226\n- Combined_ZoneDefinition_8775524547749\n- Combined_ZoneDefinition_8775524545410\n- G S1 Apartment\n- Combined_ZoneDefinition_8775524545494\n- G NE Apartment\n- G Corridor\n- Combined_ZoneDefinition_8775500171366\n- M Corridor\n- Combined_ZoneDefinition_8775524547826\n- Combined_ZoneDefinition_8775500171380\n- G N1 Apartment\n- T SW Apartment\n- M SW Apartment\n- Combined_ZoneDefinition_8775500182311\n- Combined_ZoneDefinition_8775500171422\n- G N2 Apartment\n- G S2 Apartment\n- T SE Apartment\n- T S2 Apartment\n- M NW Apartment\n- T NE Apartment\n- Combined_ZoneDefinition_8775500171471\n- T N2 Apartment\n- M S1 Apartment\n- Combined_ZoneDefinition_8775500171303\n- T N1 Apartment\n- Combined_ZoneDefinition_8775524538912\n- G SW Apartment\n- M N1 Apartment\n- T NW Apartment\n- T Corridor\n- Combined_ZoneDefinition_8775524545319\n- M SE Apartment\n- Combined_ZoneDefinition_8775524545445\n- T S1 Apartment\n- G NW Apartment\n- Combined_ZoneDefinition_8775500171499\n- Combined_ZoneDefinition_8775500182325\n- M S2 Apartment\n- Combined_ZoneDefinition_8775524547812\n- Combined_ZoneDefinition_8775524539087\n- Office\n- Combined_ZoneDefinition_8775524538975",
+            "DataSource": null,
+            "Name": "RefBldgMidriseApartmentNew2004_v1.4_7.2_4A_USA_MD_BALTIMORE_ZoneDefinition - Huzurevi"
+        },
+        {
+            "$id": "140412461603472",
+            "Conditioning": {
+                "$ref": "140412462810672"
+            },
+            "Constructions": {
+                "$ref": "140412462818688"
+            },
+            "DaylightMeshResolution": 1.0,
+            "DaylightWorkplaneHeight": 0.8,
+            "DomesticHotWater": {
+                "$ref": "140412776950368"
+            },
+            "InternalMassConstruction": {
+                "$ref": "140412783300416"
+            },
+            "InternalMassExposedPerFloorArea": 69.3,
+            "Loads": {
+                "$ref": "140412461499056"
+            },
+            "Ventilation": {
+                "$ref": "140412429248209"
+            },
+            "Category": "RefBldgOutPatientNew2004_v1.4_7.2_4A_USA_MD_BALTIMORE.idf",
+            "Comments": "Object composed of a combination of these objects:\nFloor 1 Scrub\n- Floor 1 Lobby Hall\n- Combined_ZoneDefinition_8749389174237\n- Combined_ZoneDefinition_8749389554699\n- Combined_ZoneDefinition_8749389555919\n- Floor 1 MRI Hall\n- Combined_ZoneDefinition_8749389551655\n- Floor 2 Scheduling 2\n- Floor 1 Nurse Janitor\n- Combined_ZoneDefinition_8749202614672\n- Floor 1 Dictation\n- Floor 1 Locker Room Hall\n- Floor 2 Dictation\n- Floor 1 Clean\n- Combined_ZoneDefinition_8749389550543\n- Floor 3 Dressing Room\n- Floor 3 Humid\n- Floor 1 Clean Work\n- Combined_ZoneDefinition_8749389552465\n- Floor 2 Reception Toilet\n- Combined_ZoneDefinition_8749389174153\n- Floor 1 Nourishment\n- Combined_ZoneDefinition_8749389552423\n- Combined_ZoneDefinition_8749389554839\n- Floor 3 Utility\n- Combined_ZoneDefinition_8749389556466\n- Floor 1 Bio Haz\n- Combined_ZoneDefinition_8749389556249\n- Combined_ZoneDefinition_8749389174041\n- Combined_ZoneDefinition_8749389550557\n- Floor 2 Scheduling 1\n- Floor 3 Physical Therapy Toilet\n- Floor 2 Storage 1\n- Combined_ZoneDefinition_8749389174195\n- Combined_ZoneDefinition_8749389554769\n- Combined_ZoneDefinition_8749389554895\n- Combined_ZoneDefinition_8749389552633\n- Floor 2 Conference Toilet\n- Combined_ZoneDefinition_8749389556403\n- Combined_ZoneDefinition_8749389554909\n- Combined_ZoneDefinition_8749389556410\n- Floor 1 Nurse Toilet\n- Floor 2 Storage 2\n- Floor 3 Physical Therapy 2\n- Combined_ZoneDefinition_8749389553489\n- Floor 1 Utility Janitor\n- Floor 3 Storage 1\n- Floor 1 Pre-Op Hall\n- Floor 1 Nurse Station\n- Floor 3 Treatment\n- Floor 1 Humid\n- Combined_ZoneDefinition_8749389549891\n- Combined_ZoneDefinition_8749389174265\n- Floor 1 IT Hall\n- Floor 2 X-Ray\n- Combined_ZoneDefinition_8749389174258\n- Floor 1 Nurse Hall\n- Combined_ZoneDefinition_8749389550361\n- Combined_ZoneDefinition_8749389551739\n- Combined_ZoneDefinition_8749389553545\n- Combined_ZoneDefinition_8749389550501\n- Floor 1 Soil Work\n- Floor 1 Pre-Op Room 2\n- Floor 2 Storage 3\n- Combined_ZoneDefinition_8749389174097\n- Combined_ZoneDefinition_8749389551823\n- Floor 3 Mechanical Hall\n- Floor 1 Lounge\n- Combined_ZoneDefinition_8749389553601\n- Combined_ZoneDefinition_8749389552451\n- Floor 3 Storage 2\n- Floor 1 PACU\n- Combined_ZoneDefinition_8749389556368\n- Floor 2 Nurse Station 1\n- Combined_ZoneDefinition_8749389556417\n- Combined_ZoneDefinition_8749389556424\n- Combined_ZoneDefinition_8749389556305\n- Floor 3 Locker\n- Combined_ZoneDefinition_8749389550431\n- Floor 1 MRI Room\n- Combined_ZoneDefinition_8749389551809\n- Combined_ZoneDefinition_8749389551851\n- Combined_ZoneDefinition_8749389554937\n- Combined_ZoneDefinition_8749389174251\n- Floor 1 Soil\n- Combined_ZoneDefinition_8749389550529\n- Combined_ZoneDefinition_8749389550347\n- Combined_ZoneDefinition_8749389555849\n- Combined_ZoneDefinition_8749389555779\n- Floor 1 Operating Room 3\n- Floor 1 Sterile Storage\n- Combined_ZoneDefinition_8749389550059\n- Floor 1 Reception Hall\n- Floor 1 Soil Hold\n- Combined_ZoneDefinition_8749389551641\n- Floor 1 IT Room\n- Floor 2 Office Hall\n- Floor 1 Office\n- Floor 2 Nurse Station 2\n- Floor 2 Lounge\n- Combined_ZoneDefinition_8749389556333\n- Combined_ZoneDefinition_8749389551767",
+            "DataSource": null,
+            "Name": "RefBldgOutPatientNew2004_v1.4_7.2_4A_USA_MD_BALTIMORE_ZoneDefinition_Core - Saglik Merkezi"
+        },
+        {
+            "$id": "140412459744368",
+            "Conditioning": {
+                "$ref": "140412461583696"
+            },
+            "Constructions": {
+                "$ref": "140412463733248"
+            },
+            "DaylightMeshResolution": 1.0,
+            "DaylightWorkplaneHeight": 0.8,
+            "DomesticHotWater": {
+                "$ref": "140412776378576"
+            },
+            "InternalMassConstruction": {
+                "$ref": "140412783300416"
+            },
+            "InternalMassExposedPerFloorArea": 198.0,
+            "Loads": {
+                "$ref": "140412459640512"
+            },
+            "Ventilation": {
+                "$ref": "140412459744128"
+            },
+            "Category": "RefBldgSmallHotelNew2004_v1.4_7.2_4A_USA_MD_BALTIMORE.idf",
+            "Comments": "Object composed of a combination of these objects:\nCombined_ZoneDefinition_8734503229714\n- Combined_ZoneDefinition_8734503289842\n- Combined_ZoneDefinition_8734503231506\n- Combined_ZoneDefinition_8734503219386\n- Combined_ZoneDefinition_8734503289786\n- Combined_ZoneDefinition_8734502287227\n- RearStairsFlr4\n- Combined_ZoneDefinition_8734503229938\n- ElevatorCoreFlr4\n- GuestRoom306_308\n- Combined_ZoneDefinition_8734503289758\n- Combined_ZoneDefinition_8734502287199\n- Combined_ZoneDefinition_8734502284064\n- RearStorageFlr4\n- Combined_ZoneDefinition_8734502287136\n- Combined_ZoneDefinition_8734503289702\n- Combined_ZoneDefinition_8734503229784\n- Combined_ZoneDefinition_8734503219358\n- FrontOfficeFlr1\n- Combined_ZoneDefinition_8734503289814\n- GuestRoom201\n- Combined_ZoneDefinition_8734503219407\n- RearStairsFlr2\n- Combined_ZoneDefinition_8734503219435\n- Combined_ZoneDefinition_8734503219274\n- FrontStairsFlr3\n- FrontStairsFlr2\n- ExerciseCenterFlr1\n- FrontStorageFlr1\n- Combined_ZoneDefinition_8734502285796\n- Combined_ZoneDefinition_8734502287311\n- GuestRoom102\n- Combined_ZoneDefinition_8734503229735\n- CorridorFlr1\n- Combined_ZoneDefinition_8734503293209\n- Combined_ZoneDefinition_8734503289730\n- RearStairsFlr1\n- GuestRoom424\n- GuestRoom409_412\n- GuestRoom209_212\n- Combined_ZoneDefinition_8734503231534\n- Combined_ZoneDefinition_8734502285684\n- Combined_ZoneDefinition_8734503293258\n- GuestRoom420_423\n- Combined_ZoneDefinition_8734503293272\n- CorridorFlr2\n- GuestRoom301\n- Combined_ZoneDefinition_8734503289646\n- ElevatorCoreFlr1\n- Combined_ZoneDefinition_8734503229707\n- Combined_ZoneDefinition_8734502285572\n- Combined_ZoneDefinition_8734503229910\n- Combined_ZoneDefinition_8734503293237\n- Combined_ZoneDefinition_8734502287171\n- GuestRoom219\n- Combined_ZoneDefinition_8734503219428\n- Combined_ZoneDefinition_8734503219351\n- GuestRoom215_218\n- GuestRoom419\n- Combined_ZoneDefinition_8734502287255\n- Combined_ZoneDefinition_8734502284120\n- GuestRoom213\n- GuestRoom415_418\n- Combined_ZoneDefinition_8734503229798\n- Combined_ZoneDefinition_8734503219288\n- Combined_ZoneDefinition_8734503229840\n- Combined_ZoneDefinition_8734502285628\n- Combined_ZoneDefinition_8734503293230\n- GuestRoom206_208\n- FrontLoungeFlr1\n- Combined_ZoneDefinition_8734503293244\n- Combined_ZoneDefinition_8734503219400\n- GuestRoom320_323\n- RearStorageFlr3\n- RearStorageFlr2\n- FrontStairsFlr1\n- GuestRoom315_318\n- GuestRoom202_205\n- Combined_ZoneDefinition_8734502285740\n- Combined_ZoneDefinition_8734503289611\n- Combined_ZoneDefinition_8734506903044\n- RearStairsFlr3\n- Combined_ZoneDefinition_8734503231646\n- LaundryRoomFlr1\n- GuestRoom406_408\n- GuestRoom313\n- Combined_ZoneDefinition_8734503229896\n- Combined_ZoneDefinition_8734502287283\n- Combined_ZoneDefinition_8734503293202\n- Combined_ZoneDefinition_8734502287339\n- Combined_ZoneDefinition_8734503231576\n- GuestRoom224\n- Combined_ZoneDefinition_8734503293251\n- GuestRoom103\n- GuestRoom104\n- GuestRoom401\n- GuestRoom402_405\n- GuestRoom314\n- CorridorFlr4\n- RestroomFlr1\n- GuestRoom214\n- MeetingRoomFlr1\n- FrontStairsFlr4\n- Combined_ZoneDefinition_8734502284176\n- RearStorageFlr1\n- Combined_ZoneDefinition_8734503293279\n- EmployeeLoungeFlr1\n- GuestRoom414\n- FrontStorageFlr4\n- FrontStorageFlr2\n- Combined_ZoneDefinition_8734503289674\n- GuestRoom309_312\n- GuestRoom302_305\n- FrontStorageFlr3\n- CorridorFlr3\n- GuestRoom413\n- GuestRoom101\n- GuestRoom220_223\n- GuestRoom324\n- ElevatorCoreFlr3\n- GuestRoom319\n- MechanicalRoomFlr1\n- Combined_ZoneDefinition_8734503229826\n- GuestRoom105\n- Combined_ZoneDefinition_8734503293265\n- Combined_ZoneDefinition_8734502284232\n- ElevatorCoreFlr2\n- Combined_ZoneDefinition_8734503231716",
+            "DataSource": null,
+            "Name": "RefBldgSmallHotelNew2004_v1.4_7.2_4A_USA_MD_BALTIMORE_ZoneDefinition - Otel"
+        },
+        {
+            "$id": "140412455616816",
+            "Conditioning": {
+                "$ref": "140412457495888"
+            },
+            "Constructions": {
+                "$ref": "140412457497216"
+            },
+            "DaylightMeshResolution": 1.0,
+            "DaylightWorkplaneHeight": 0.8,
+            "DomesticHotWater": {
+                "$ref": "140412432610353"
+            },
+            "InternalMassConstruction": {
+                "$ref": "140412783300416"
+            },
+            "InternalMassExposedPerFloorArea": 465.0,
+            "Loads": {
+                "$ref": "140412455579920"
+            },
+            "Ventilation": {
+                "$ref": "140412455616576"
+            },
+            "Category": "RefBldgStripMallNew2004_v1.4_7.2_4A_USA_MD_BALTIMORE.idf",
+            "Comments": "Object composed of a combination of these objects:\nSMstore3\n- SMstore1\n- SMstore5\n- LGstore2\n- SMstore7\n- SMstore2\n- Combined_ZoneDefinition_8738053412433\n- Combined_ZoneDefinition_8738053412356\n- Combined_ZoneDefinition_8738053412580\n- LGstore1\n- Combined_ZoneDefinition_8738053412531\n- Combined_ZoneDefinition_8738053412447\n- SMstore8\n- Combined_ZoneDefinition_8738053412552\n- Combined_ZoneDefinition_8738053401860\n- Combined_ZoneDefinition_8738053412587\n- SMstore6\n- SMstore4",
+            "DataSource": null,
+            "Name": "RefBldgStripMallNew2004_v1.4_7.2_4A_USA_MD_BALTIMORE_ZoneDefinition - Spor Merkezi"
+        }
+    ],
+    "WindowSettings": [
+        {
+            "$id": "140412462770352",
+            "AfnDischargeC": 0.65,
+            "AfnTempSetpoint": 20.0,
+            "AfnWindowAvailability": {
+                "$ref": "5000"
+            },
+            "Construction": {
+                "$ref": "140412777866240"
+            },
+            "IsShadingSystemOn": false,
+            "IsVirtualPartition": false,
+            "IsZoneMixingOn": false,
+            "OperableArea": 0.8,
+            "ShadingSystemAvailabilitySchedule": {
+                "$ref": "5000"
+            },
+            "ShadingSystemSetpoint": 180.0,
+            "ShadingSystemTransmittance": 0.5,
+            "ShadingSystemType": 0,
+            "Type": 0,
+            "ZoneMixingAvailabilitySchedule": {
+                "$ref": "5000"
+            },
+            "ZoneMixingDeltaTemperature": 2.0,
+            "ZoneMixingFlowRate": 0.001,
+            "Category": "RefBldgMidriseApartmentNew2004_v1.4_7.2_8A_USA_AK_FAIRBANKS.idf",
+            "Comments": null,
+            "DataSource": "RefBldgMidriseApartmentNew2004_v1.4_7.2_8A_USA_AK_FAIRBANKS.idf",
+            "Name": "GWindow1 - Huzurevi"
+        },
+        {
+            "$id": "140413053569440",
+            "AfnDischargeC": 0.65,
+            "AfnTempSetpoint": 20.0,
+            "AfnWindowAvailability": {
+                "$ref": "5000"
+            },
+            "Construction": {
+                "$ref": "140412777750752"
+            },
+            "IsShadingSystemOn": false,
+            "IsVirtualPartition": false,
+            "IsZoneMixingOn": false,
+            "OperableArea": 0.8,
+            "ShadingSystemAvailabilitySchedule": {
+                "$ref": "5000"
+            },
+            "ShadingSystemSetpoint": 180.0,
+            "ShadingSystemTransmittance": 0.5,
+            "ShadingSystemType": 0,
+            "Type": 0,
+            "ZoneMixingAvailabilitySchedule": {
+                "$ref": "5000"
+            },
+            "ZoneMixingDeltaTemperature": 2.0,
+            "ZoneMixingFlowRate": 0.001,
+            "Category": "RefBldgMediumOfficeNew2004_v1.4_7.2_8A_USA_AK_FAIRBANKS.idf",
+            "Comments": null,
+            "DataSource": "RefBldgMediumOfficeNew2004_v1.4_7.2_8A_USA_AK_FAIRBANKS.idf",
+            "Name": "Perimeter_bot_ZN_1_Wall_South_Window_3 - Ofis"
+        },
+        {
+            "$id": "140413053569443",
+            "AfnDischargeC": 0.65,
+            "AfnTempSetpoint": 20.0,
+            "AfnWindowAvailability": {
+                "$ref": "5000"
+            },
+            "Construction": {
+                "$ref": "140412777750753"
+            },
+            "IsShadingSystemOn": false,
+            "IsVirtualPartition": false,
+            "IsZoneMixingOn": false,
+            "OperableArea": 0.8,
+            "ShadingSystemAvailabilitySchedule": {
+                "$ref": "5000"
+            },
+            "ShadingSystemSetpoint": 180.0,
+            "ShadingSystemTransmittance": 0.5,
+            "ShadingSystemType": 0,
+            "Type": 0,
+            "ZoneMixingAvailabilitySchedule": {
+                "$ref": "5000"
+            },
+            "ZoneMixingDeltaTemperature": 2.0,
+            "ZoneMixingFlowRate": 0.001,
+            "Category": "RefBldgMediumOfficeNew2004_v1.4_7.2_8A_USA_AK_FAIRBANKS.idf",
+            "Comments": null,
+            "DataSource": "RefBldgMediumOfficeNew2004_v1.4_7.2_8A_USA_AK_FAIRBANKS.idf",
+            "Name": "Perimeter_bot_ZN_1_Wall_South_Window_3 - Saglik Merkezi"
+        },
+        {
+            "$id": "140413053569441",
+            "AfnDischargeC": 0.65,
+            "AfnTempSetpoint": 20.0,
+            "AfnWindowAvailability": {
+                "$ref": "5000"
+            },
+            "Construction": {
+                "$ref": "140412777866241"
+            },
+            "IsShadingSystemOn": false,
+            "IsVirtualPartition": false,
+            "IsZoneMixingOn": false,
+            "OperableArea": 0.8,
+            "ShadingSystemAvailabilitySchedule": {
+                "$ref": "5000"
+            },
+            "ShadingSystemSetpoint": 180.0,
+            "ShadingSystemTransmittance": 0.5,
+            "ShadingSystemType": 0,
+            "Type": 0,
+            "ZoneMixingAvailabilitySchedule": {
+                "$ref": "5000"
+            },
+            "ZoneMixingDeltaTemperature": 2.0,
+            "ZoneMixingFlowRate": 0.001,
+            "Category": "RefBldgMediumOfficeNew2004_v1.4_7.2_8A_USA_AK_FAIRBANKS.idf",
+            "Comments": null,
+            "DataSource": "RefBldgMediumOfficeNew2004_v1.4_7.2_8A_USA_AK_FAIRBANKS.idf",
+            "Name": "Perimeter_bot_ZN_1_Wall_South_Window_3 - Sosyal Bina & Otel"
+        },
+        {
+            "$id": "140413053569442",
+            "AfnDischargeC": 0.65,
+            "AfnTempSetpoint": 20.0,
+            "AfnWindowAvailability": {
+                "$ref": "5000"
+            },
+            "Construction": {
+                "$ref": "140412777750754"
+            },
+            "IsShadingSystemOn": false,
+            "IsVirtualPartition": false,
+            "IsZoneMixingOn": false,
+            "OperableArea": 0.8,
+            "ShadingSystemAvailabilitySchedule": {
+                "$ref": "5000"
+            },
+            "ShadingSystemSetpoint": 180.0,
+            "ShadingSystemTransmittance": 0.5,
+            "ShadingSystemType": 0,
+            "Type": 0,
+            "ZoneMixingAvailabilitySchedule": {
+                "$ref": "5000"
+            },
+            "ZoneMixingDeltaTemperature": 2.0,
+            "ZoneMixingFlowRate": 0.001,
+            "Category": "RefBldgMediumOfficeNew2004_v1.4_7.2_8A_USA_AK_FAIRBANKS.idf",
+            "Comments": null,
+            "DataSource": "RefBldgMediumOfficeNew2004_v1.4_7.2_8A_USA_AK_FAIRBANKS.idf",
+            "Name": "Perimeter_bot_ZN_1_Wall_South_Window_3 - Spor Merkezi"
+        }
+    ],
+    "BuildingTemplates": [
+        {
+            "Core": {
+                "$ref": "140412462831552"
+            },
+            "Lifespan": 60,
+            "PartitionRatio": 0.35,
+            "Perimeter": {
+                "$ref": "140412462831552"
+            },
+            "Structure": {
+                "$ref": "140412469826320"
+            },
+            "Windows": {
+                "$ref": "140412462770352"
+            },
+            "DefaultWindowToWallRatio": 0.4,
+            "Category": "Uncategorized",
+            "Comments": "WWR calculated for original model: \n         wall_area  window_area       wwr  wwr_rounded_%\nAzimuth                                                 \n180          564.8         83.2  0.147309             10\n270          206.2         31.2  0.151309             20\n0            564.8         83.2  0.147309             10\n90           206.2         33.4  0.161979             20\nwhere East=90, South=180, West=270, North=0\n",
+            "DataSource": null,
+            "Name": "Huzurevi",
+            "YearFrom": null,
+            "YearTo": null,
+            "Country": [
+                "USA"
+            ],
+            "ClimateZone": [
+                "4A"
+            ],
+            "Authors": [],
+            "AuthorEmails": [],
+            "Version": "v1.0"
+        },
+        {
+            "Core": {
+                "$ref": "140412429247968"
+            },
+            "Lifespan": 60,
+            "PartitionRatio": 0.19,
+            "Perimeter": {
+                "$ref": "140412429247968"
+            },
+            "Structure": {
+                "$ref": "140412469826320"
+            },
+            "Windows": {
+                "$ref": "140413053569440"
+            },
+            "DefaultWindowToWallRatio": 0.4,
+            "Category": "Uncategorized",
+            "Comments": "WWR calculated for original model: \n         wall_area  window_area       wwr  wwr_rounded_%\nAzimuth                                                 \n90           395.5        130.6  0.330215             30\n0            593.3        195.8  0.330019             30\n180          593.3        195.8  0.330019             30\n270          395.5        130.6  0.330215             30\nwhere East=90, South=180, West=270, North=0\n",
+            "DataSource": null,
+            "Name": "Ofis",
+            "YearFrom": null,
+            "YearTo": null,
+            "Country": [
+                "USA"
+            ],
+            "ClimateZone": [
+                "4A"
+            ],
+            "Authors": [],
+            "AuthorEmails": [],
+            "Version": "v1.0"
+        },
+        {
+            "Core": {
+                "$ref": "140412459744368"
+            },
+            "Lifespan": 60,
+            "PartitionRatio": 0.46,
+            "Perimeter": {
+                "$ref": "140412459744368"
+            },
+            "Structure": {
+                "$ref": "140412469826320"
+            },
+            "Windows": {
+                "$ref": "140413053569440"
+            },
+            "DefaultWindowToWallRatio": 0.4,
+            "Category": "Uncategorized",
+            "Comments": "WWR calculated for original model: \n         wall_area  window_area       wwr  wwr_rounded_%\nAzimuth                                                 \n0            635.5         72.4  0.113926             10\n270          211.8          8.4  0.039660              0\n180          635.5         96.8  0.152321             20\n90           211.8          6.6  0.031161              0\nwhere East=90, South=180, West=270, North=0\n",
+            "DataSource": null,
+            "Name": "Otel",
+            "YearFrom": null,
+            "YearTo": null,
+            "Country": [
+                "USA"
+            ],
+            "ClimateZone": [
+                "4A"
+            ],
+            "Authors": [],
+            "AuthorEmails": [],
+            "Version": "v1.0"
+        },
+        {
+            "Core": {
+                "$ref": "140412461603472"
+            },
+            "Lifespan": 60,
+            "PartitionRatio": 0.74,
+            "Perimeter": {
+                "$ref": "140412461603472"
+            },
+            "Structure": {
+                "$ref": "140412469826320"
+            },
+            "Windows": {
+                "$ref": "140413053569440"
+            },
+            "DefaultWindowToWallRatio": 0.4,
+            "Category": "Uncategorized",
+            "Comments": "WWR calculated for original model: \n         wall_area  window_area       wwr  wwr_rounded_%\nAzimuth                                                 \n180          554.6        114.1  0.205734             20\n0            473.8         97.2  0.205150             20\n90           302.9         58.0  0.191482             20\n270          302.9         39.0  0.128755             10\nwhere East=90, South=180, West=270, North=0\n",
+            "DataSource": null,
+            "Name": "Saglik Merkezi",
+            "YearFrom": null,
+            "YearTo": null,
+            "Country": [
+                "USA"
+            ],
+            "ClimateZone": [
+                "4A"
+            ],
+            "Authors": [],
+            "AuthorEmails": [],
+            "Version": "v1.0"
+        },
+        {
+            "Core": {
+                "$ref": "140412458196560"
+            },
+            "Lifespan": 60,
+            "PartitionRatio": 0.25,
+            "Perimeter": {
+                "$ref": "140412458196560"
+            },
+            "Structure": {
+                "$ref": "140412469826320"
+            },
+            "Windows": {
+                "$ref": "140413053569440"
+            },
+            "DefaultWindowToWallRatio": 0.4,
+            "Category": "Uncategorized",
+            "Comments": "WWR calculated for original model: \n         wall_area  window_area       wwr  wwr_rounded_%\nAzimuth                                                 \n180           84.5         16.7  0.197633             20\n90            56.3         11.2  0.198934             20\n0             84.5         16.7  0.197633             20\n270           56.3         11.2  0.198934             20\nwhere East=90, South=180, West=270, North=0\n",
+            "DataSource": null,
+            "Name": "Sosyal Bina",
+            "YearFrom": null,
+            "YearTo": null,
+            "Country": [
+                "USA"
+            ],
+            "ClimateZone": [
+                "4A"
+            ],
+            "Authors": [],
+            "AuthorEmails": [],
+            "Version": "v1.0"
+        },
+        {
+            "Core": {
+                "$ref": "140412455616816"
+            },
+            "Lifespan": 60,
+            "PartitionRatio": 0.2,
+            "Perimeter": {
+                "$ref": "140412455616816"
+            },
+            "Structure": {
+                "$ref": "140412469826320"
+            },
+            "Windows": {
+                "$ref": "140413053569440"
+            },
+            "DefaultWindowToWallRatio": 0.4,
+            "Category": "Uncategorized",
+            "Comments": "WWR calculated for original model: \n         wall_area  window_area       wwr  wwr_rounded_%\nAzimuth                                                 \n180          473.7         77.7  0.164028             20\n270          118.4          0.0  0.000000              0\n0            473.7          0.0  0.000000              0\n90           118.4          0.0  0.000000              0\nwhere East=90, South=180, West=270, North=0\n",
+            "DataSource": null,
+            "Name": "Spor Merkezi",
+            "YearFrom": null,
+            "YearTo": null,
+            "Country": [
+                "USA"
+            ],
+            "ClimateZone": [
+                "4A"
+            ],
+            "Authors": [],
+            "AuthorEmails": [],
+            "Version": "v1.0"
+        }
+    ]
+}
