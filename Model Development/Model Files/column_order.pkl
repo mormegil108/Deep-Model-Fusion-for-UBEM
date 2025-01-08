@@ -1,0 +1,57 @@
+Energy Consumption
+Dry Bulb Temperature {C}
+Dew Point Temperature {C}
+Relative Humidity {%}
+Wind Direction (deg)
+Wind Speed (m/s)
+Hourly Total Global Solar Radiation (watt/m2)
+Liquid Precipitation (mm)
+Sun Exposure Intensity (cal/cm2)
+Heating Schedule
+Cooling Schedule
+DHW Schedule
+Equipment Schedule
+Lighting Schedule
+Occupant Schedule
+Natural Ventilation Schedule
+Mechanical Ventilation Schedule
+DHW Flow Rate (m3/h/m2)
+Illuminance (lux)
+Occupant Density (people/m2)
+Infiltration (ACH)
+Cooling Setpoint (celsius)
+Ground-U
+IsCoolingOn
+IsMechVentOn
+lpd
+heating_setpoint
+wall_u
+roof_u
+window_u
+WWR
+Rhino GFA (m2)
+Floor Count
+Height
+Volume
+embedding_1
+embedding_2
+embedding_3
+embedding_4
+embedding_5
+embedding_6
+embedding_7
+embedding_8
+embedding_9
+embedding_10
+embedding_11
+embedding_12
+embedding_13
+embedding_14
+embedding_15
+embedding_16
+Archetype_Huzurevi
+Archetype_Ofis
+Archetype_Otel
+Archetype_Saglik Merkezi
+Archetype_Sosyal Bina
+Archetype_Spor Merkezi
